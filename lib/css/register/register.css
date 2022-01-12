@@ -1,0 +1,318 @@
+body {
+    color: #650107;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    font-family: 'Montserrat';
+    background: url(../../../img/resgiter/Rectangle3.png) no-repeat center;
+    background-size: cover;
+}
+
+/* Custom CSS */
+.main {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+/* Header CSS */
+.container-flur {
+    position: relative;
+}
+
+.image-sank__img {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    max-width: 1066px;
+    width: 100%;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.header-logo__link {
+    display: block;
+    
+}
+
+.header-logo__img {
+    width: 200px;
+    height: 57px;
+    font-size: 48px;
+    line-height: 0;
+    color: #FE616B;
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+}
+
+.header-inner {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.header-img__wrap {
+    width: 28px;
+    height: 28px;
+    background: #ffffff45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.header-inner__img {
+    width: 12px;
+    height: 12px;
+}       
+
+.header-inner__content {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 8px;
+    font-weight: 300;
+}
+
+.header-contact__right {
+    padding-left: 54px;
+    position: relative;
+}
+
+.header-contact__right::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    width: 1px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.content {
+    z-index: 1;
+    position: relative;
+    padding: 0 15px;
+    max-width: 100%;
+}
+
+/* Form Login CSS */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 35px;
+}
+
+.login-inner {
+    background-color: #fff;
+    border-radius: 40px;
+    max-width: 519px;
+    width: 100%;
+
+    padding: 40px 24px;
+}   
+
+.login-top {
+    margin-bottom: 29px;
+}
+
+.login-top__heading {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #650107;
+}
+
+.login-top__separate {
+    display: block;
+    text-align: center;
+}
+
+.login-form__create {
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.login-form__create-question {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.6);
+}
+
+.login-form__create-link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    
+    letter-spacing: 0.012em;
+    padding: 0 6px;
+    color: #FE616B;
+}
+
+.header-img__wrap-mobi {
+    display: none;
+}
+
+.login-form__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form__account {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+}
+
+.login-form__input {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    padding: 0px 16px;
+    height: 48px;
+    letter-spacing: 0.012em;   
+    width: 100%; 
+    color: #650107DE;
+    outline: none;
+}
+
+.login-form__input:focus {
+    border: 1px solid #E8E8E8;
+    outline: none;
+}
+
+.login-form__wrap:nth-child(1) {
+    margin-bottom: 16px;
+}
+
+
+.login-form__input-eye {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 44%;
+    bottom: 50%;
+    transform: translate(-44%, -50%);
+    right: 15px;
+    cursor: pointer;
+}
+
+.login-form__hidden-btn {
+    text-decoration: none;
+    display: inline;
+    color: #FE616B;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    top: 32%;
+    bottom: 50%;
+    transform: translate(-32%, -50%);
+    right: -8px;
+}
+
+.login-form__hidden {
+    position: relative;
+}
+
+.login-form__main-question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-form__checkbox {
+    margin-top: 3px;
+}
+
+.login-form__main-forget {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.012em;
+    
+    color: #FE616B;
+}
+
+.login-form__main-submit {
+    margin-top: 32px;
+}
+
+.login-form__main-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.login-form__main-btn {
+    width: 100%;
+    height: 48px;
+    background: linear-gradient( 180deg, #FE858D 0%, #FE616B 100%);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.012em;
+}
+
+.login-form__main-btn:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form__main-checkbox span{
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    margin-left: 8px;
+    letter-spacing: 0.012em;
+
+    color: rgba(101, 1, 7, 0.87);
+}
+
+.login-form__wrap:nth-child(5) {
+    margin: 16px 0 0 33px;
+    position: relative;
+}
+
+.login-form__wrap:nth-child(5) span { 
+    position: absolute;
+    bottom: 0;
+    left: -16px;
+    width: 2px;
+    height: 84px;
+    background-color: #FE616B;
+    opacity: 0.38;
+}
+
+.copyright {
+    text-align: center;
+}

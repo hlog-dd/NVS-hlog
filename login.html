@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5me.onl</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./lib/css/base.css">
+    <link rel="stylesheet" href="./lib/css/login/login.css">
+    <link rel="stylesheet" href="./lib/css/login/reponsive.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container-flur">
+            <header class="header">
+                <div class="header-wrap">
+                    <div class="header-logo">
+                        <a href="" class="header-logo__link">
+                            <img src="./img/login/5me.onl.svg" alt="" class="header-logo__img">
+                        </a>
+                    </div>
+    
+                    <div class="header-contact">
+                        <div class="header-contact__left">
+                            <a href="" class="header-inner">
+                                <div class="header-img__wrap">
+                                    <img src="./img/login/phone.svg" alt="" class="header-inner__img">
+                                </div>
+    
+                                <span class="header-inner__content">
+                                    (+1) 514 697 4413
+                                </span>
+
+                                <div class="header-img__wrap-mobi">
+                                    <img src="./img/login/fb.svg" alt="" class="header-inner__img-mobi">
+                                </div>
+                            </a>
+    
+                            <a href="" class="header-inner">
+                                <div class="header-img__wrap">
+                                    <img src="./img/login/mail.svg" alt="" class="header-inner__img">
+                                </div>
+                                
+                                <span class="header-inner__content">
+                                    contact@newgenpharma.com
+                                </span>
+                            </a>
+                        </div>
+    
+                        <div class="header-contact__right">
+                            <a href="" class="header-contact__link">
+                                <div class="header-img__wrap">
+                                    <img src="./img/login/fb.svg" alt="" class="header-inner__img">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>    
+    
+            <div class="content">
+                <div class="login">
+                    <div class="login-inner">
+                        <div class="login-top">
+                            <h4 class="login-top__heading">
+                                Đăng nhập
+                            </h4>
+
+                            <span class="login-top__separate">
+                                <img src="./img/login/Group 48.svg" alt="" class="login-top__separate-img">
+                            </span>
+                        </div>
+
+                        <div class="login-body">
+                            <form action="" class="login-form">
+                                <div class="login-form__inner">
+                                    <div class="login-form__create">
+                                        <span class="login-form__create-question">
+                                            Bạn chưa có tài khoản?
+                                        </span>
+
+                                        <a href="./register.html" class="login-form__create-link">
+                                            Tạo tài khoản
+                                        </a>
+                                    </div>
+
+                                    <div class="login-form__main">
+                                        <div class="login-form__wrap">
+                                            <label for="" class="login-form__account">
+                                                Email / Tên đăng nhập
+                                            </label>
+
+                                            <input type="text" name="" id="" class="login-form__input" placeholder="toan.thien@example.com">
+                                        </div>
+
+                                        <div class="login-form__wrap">
+                                            <label for="" class="login-form__account">
+                                                Mật khẩu
+                                            </label>
+
+                                            <div class="login-form__hidden">
+                                                <input type="password" name="" id="myInput" class="login-form__input" value="abababab">
+
+                                                <input type="checkbox" hidden class="login-form__hidden-btn" id="showpass" onclick="myFunction()">
+
+                                                <label for="showpass">
+                                                    <img src="./img/login/hidden.svg" alt="" class="login-form__input-eye">
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="login-form__main-question">
+                                            <label class="container-c">Lưu lại
+                                                <input type="checkbox" checked="checked">
+                                                <span class="checkmark"></span>
+                                            </label>
+
+
+                                            <a href="" class="login-form__main-forget">
+                                                Quên mật khẩu?
+                                            </a>
+                                        </div>
+
+                                        <div class="login-form__main-submit">
+                                            <a  href="./user.html" type="submit" class="login-form__main-btn">
+                                                Đăng nhập
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="login-footer">
+                            <div class="login-footer-separate">
+                                <span class="login-footer-line">
+
+                                </span>
+                                
+                                <span class="login-footer-or">
+                                    Hoặc
+                                </span>
+
+                                <span class="login-footer-line">
+
+                                </span>
+                            </div>
+
+                            <div class="login-footer__fb">
+                                <a href="https://www.facebook.com/" class="login-footer__link">
+                                    <img src="./img/login/face.svg" alt="" class="login-footer__img">
+
+                                    <span class="login-footer__desc">
+                                        Đăng nhập bằng Facebook
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <footer class="footer">
+                <div class="copyright">
+                    <img src="./img/login/copyright.svg" alt="" class="copyright-img">
+                </div>
+            </footer>
+
+            <!-- Image chìm dưới layout -->
+            <div class="image-sank">
+                <img src="./img/resgiter/Frame 3.png" alt="" class="image-sank__img">
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap/js/jquery.min.js"></script>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myInput");
+          if (x.type === "password") {
+            x.type = "text";
+          } else {
+            x.type = "password";
+          }
+        }
+    </script>
+</body>
+</html>
