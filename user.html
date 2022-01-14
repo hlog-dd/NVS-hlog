@@ -7,7 +7,7 @@
     <title>5me.onl</title>
 
     <script src="./lib/bootstrap/js/jquery.slim.min.js"></script>
-    <script src="./lib/js/jquery.min.js"></script>
+    <script src="./lib/bootstrap/js/jquery.min.js"></script>
     <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="header-logo">
-                        <a href="" class="header-logo__link">
+                        <a href="./user.html" class="header-logo__link">
                             <img src="./img/user/logo.svg" alt="" class="header-logo__img">
                         </a>
                     </div>
@@ -44,7 +44,7 @@
                                     </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="./rent-user.html" class="navbar-link">
+                                    <a href="./rent.html" class="navbar-link">
                                         <span>
                                             Thuê người chơi
                                         </span>
@@ -609,7 +609,7 @@
                                             </p>
 
                                             <div class="feed-body__image">
-                                                <img src="./img/user/content-1.png" alt="" class="feed-body__img">
+                                                <img src="./img/user/content-1.png" alt="" class="feed-body__img lightbox">
                                             </div>
 
                                             <div class="feed-body__like">
@@ -655,19 +655,19 @@
                                             <div class="feed-body__image-wrap">
                                                 <ul class="feed-body__image-list">
                                                     <li class="feed-body__image-item">
-                                                        <img src="./img/user/content-2.png" alt="" class="feed-body__image-img">
+                                                        <img src="./img/user/content-2.png" alt="" class="feed-body__image-img lightbox">
                                                     </li>
                                                     <li class="feed-body__image-item">
-                                                        <img src="./img/user/content-21.png" alt="" class="feed-body__image-img">
+                                                        <img src="./img/user/content-21.png" alt="" class="feed-body__image-img lightbox">
                                                     </li>
                                                     <li class="feed-body__image-item">
-                                                       <img src="./img/user/content-22.png" alt="" class="feed-body__image-img">
+                                                       <img src="./img/user/content-22.png" alt="" class="feed-body__image-img lightbox">
                                                     </li>
                                                     <li class="feed-body__image-item">
-                                                       <img src="./img/user/content-23.png" alt="" class="feed-body__image-img">
+                                                       <img src="./img/user/content-23.png" alt="" class="feed-body__image-img lightbox">
                                                     </li>
                                                     <li class="feed-body__image-item">
-                                                        <img src="./img/user/content-24.png" alt="" class="feed-body__image-img">
+                                                        <img src="./img/user/content-24.png" alt="" class="feed-body__image-img lightbox">
                                                      </li>
                                                 </ul>                                            
                                             </div>
@@ -930,7 +930,7 @@
 
             <div class="box-chat__bottom">
                 <div class="box-chat__bottom-left">
-                    <img src="./img/rent-user/chat-box/user-4.png" alt="" class="box-chat__user-img">
+                    <img src="./img/rent-user/chat-box/user-3.png" alt="" class="box-chat__user-img">
 
                     <textarea class="box-chat__input" name="" id="" placeholder="Nhập tin nhắn"></textarea>
                 </div>
@@ -950,6 +950,25 @@
 
     <script src="./lib/bootstrap/js/jquery.min.js"></script>
     <script src="./lib/js/user/user.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".lightbox").click(function () {
+                var imgsrc = $(this).attr('src');
+                $("body").append("<div class='img-popup'><span class='close-lightbox'>&times;</span><img src='" + imgsrc + "'></div>");
+                $(".close-lightbox, .img-popup").click(function () {
+                    $(".img-popup").fadeOut(500, function () {
+                        $(this).remove();
+                    }).addClass("lightboxfadeout");
+                });
+ 
+            });
+            $(".lightbox").click(function () {
+                $(".img-popup").fadeIn(500);
+            });
+
+        });
+    </script>
 </body>
 </html>
 

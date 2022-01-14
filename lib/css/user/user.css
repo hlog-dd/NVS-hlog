@@ -826,6 +826,9 @@ li.feed-body__image-item:nth-child(5) {
     top: 50%;
     left: 4%;
     transform: translate(-6%, -50%);
+    width: 24px;
+    height: 24px;
+    
 }
 
 .box-chat__bottom-right {
@@ -834,3 +837,4 @@ li.feed-body__image-item:nth-child(5) {
     top: 50%;
     transform: translate(10%, -50%);
 }
+

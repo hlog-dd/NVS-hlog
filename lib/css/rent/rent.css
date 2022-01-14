@@ -22,6 +22,10 @@ body {
     padding: 0 12px;
 }
 
+.tap-mobile, .pagination {
+    display: none;
+}
+
 .header-wrap {
     display: flex;
     justify-content: space-between;
@@ -604,5 +608,10 @@ li.game-item {
 img.user-viewer__img {
     width: 14px;
     margin-right: 6px;
+}
+
+.rent-item:nth-child(2), .rent-item:nth-child(3),
+.rent-item:nth-child(4), .rent-item:nth-child(5) {
+    margin-top: -30px;
 }
 /* End */

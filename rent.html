@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>5me.onl</title>
 
+    <script src="./lib/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="./lib/bootstrap/js/jquery.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./lib/css/base.css">
+    <link rel="stylesheet" href="./lib/css/rent-user/rent-user.css">
     <link rel="stylesheet" href="./lib/css//rent/rent.css">
+    <link rel="stylesheet" href="./lib/css/rent/reponsive.css">
 </head>
 <body>
     <div class="main">
@@ -16,24 +22,29 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="header-logo">
-                        <a href="" class="header-logo__link">
+                        <a href="./user.html" class="header-logo__link">
                             <img src="./img/user/logo.svg" alt="" class="header-logo__img">
                         </a>
                     </div>
     
-    
+                    <div class="header-logo__mobi">
+                        <a href="" class="header-logo__link">
+                            <img src="./img/user/logo-mobile.svg" alt="" class="header-logo__img">
+                        </a>
+                    </div>
+
                     <div class="header-navbar">
                         <nav class="navbar">
                             <ul class="navbar-list">
                                 <li class="navbar-item">
-                                    <a href="./user.html" class="navbar-link">
+                                    <a href="" class="navbar-link navbar-active">
                                         <span>
                                             Trang chủ
                                         </span>
                                     </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="./rent-user.html" class="navbar-link navbar-active">
+                                    <a href="./rent.html" class="navbar-link">
                                         <span>
                                             Thuê người chơi
                                         </span>
@@ -49,7 +60,6 @@
                             </ul>
                         </nav>
                     </div>
-    
     
                     <div class="header-right">
                         <div class="header-select">
@@ -72,7 +82,78 @@
                                             <img src="./img/user/circle-sm.svg" alt="" class="header-select__dote">
                                         </div>
                                     </a>
-                                    
+
+                                    <div class="navbar__notify">
+                                        <header class="navbar__notify-header">
+                                            <h3>Thông báo mới nhận</h3>
+                                        </header>
+        
+                                        <ul class="navbar__notify-list">
+                                            <li class="navbar__notify-item">
+                                                <a href="" class="navbar__notify-link navbar__notify-link--viewed">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
+                                                    <div class="navbar__notify-info">
+                                                        <span class="navbar__notify-name">Áo thun The Nearest First-sight 100% Cotton Mùa Hè 2021</span>
+                                                        <span class="navbar__notify-desc">Áo Tshirt First Sight Nearest được làm từ chất liệu cotton thoáng mát..</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+        
+                                            <li class="navbar__notify-item">
+                                                <a href="" class="navbar__notify-link navbar__notify-link--viewed">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
+                                                    <div class="navbar__notify-info">
+                                                        <span class="navbar__notify-name">Áo thun nữ unisex tay lỡ form rộng love at first sight vải dày mịn </span>
+                                                        <span class="navbar__notify-desc">Áo Tshirt First Sight...</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+        
+                                            <li class="navbar__notify-item">
+                                                <a href="" class="navbar__notify-link">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
+                                                    <div class="navbar__notify-info">
+                                                        <span class="navbar__notify-name">VÁY LIỀN LOVE AT FIRST SIGHT</span>
+                                                        <span class="navbar__notify-desc">Chiếc váy đơn giản nhưng lên dáng vô cùng xinh xắn nhẹ nhàng..</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+        
+                                        <footer class="navbar__notify-footer">
+                                            <a href="" class="navbar__notify-footer-btn">Xem tất cả</a>
+                                        </footer>
+                                    </div>
+                                </li>
+                                <li class="header-select__item">
+                                    <button class="header-select__link">
+                                        <img src="./img/user/Menu.svg" alt="" class="header-select__img">
+                                    </button>    
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header-select__mobi">
+                            <ul class="header-select__list">
+                                <li class="header-select__item">
+                                    <a href="" class="header-select__link">
+                                        <img src="./img/user/zoom-mobi.svg" alt="" class="header-select__img">
+                                    </a>
+                                </li>
+                                <li class="header-select__item">
+                                    <button class="header-select__link">
+                                        <img src="./img/user/mes-mb.svg" alt="" class="header-select__img">
+                                    </button>    
+                                </li>
+                                <li class="header-select__item">
+                                    <a href="" class="header-select__link">
+                                        <div class="header-select__link-wrap">
+                                            <img src="./img/user/noti-mb.svg" alt="" class="header-select__img">
+
+                                            <img src="./img/user/dot-mb.svg" alt="" class="header-select__dote">
+                                        </div>
+                                    </a>
+
                                     <div class="navbar__notify">
                                         <header class="navbar__notify-header">
                                             <h3>Thông báo mới nhận</h3>
@@ -145,9 +226,9 @@
 
                             <ul class="subnav">
                                 <li class="subnav-item">
-                                    <button class="subnav-link" id="recharge">
+                                    <a href="" class="subnav-link">
                                         Nạp tiền
-                                    </button>
+                                    </a>
                                 </li>
                                 <li class="subnav-item">
                                     <a href="" class="subnav-link">
@@ -229,6 +310,72 @@
                         <a href="./login.html" class="navbar-mobi__btn-logout">
                             <span>Đăng xuất</span>
                         </a>
+                    </div>
+                </div>
+
+                <div class="box-chat" id="box-chat">
+                    <div class="box-chat__header">
+                        <div class="box-chat__name">
+                            <img src="./img/rent-user/chat-box/user-1.png" alt="" class="box-chat__img">
+                            
+                            <div class="box-chat__heading">
+                                Nguyễn Trần Đình Thiện
+                            </div>
+                        </div>
+        
+                        <button class="box-chat__close">
+                            <img src="./img/rent-user/chat-box/close.svg" alt="" class="box-chat__close-img">
+                        </button>
+                    </div>
+        
+                    <div class="box-chat__body">
+                        <ul class="box-chat__list">
+                            <li class="box-chat__item">
+                                <div class="box-chat__wrap">
+                                    <img src="./img/rent-user/chat-box/user-2.png" alt="" class="box-chat__img">
+            
+                                    <div class="box-chat__content">
+                                        <p class="box-chat__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                                        </p>
+            
+                                        <span>22/10/2020 | 08:32</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="box-chat__item">
+                                <div class="box-chat__wrap">    
+                                    <div class="box-chat__content active-me">
+                                        <p class="box-chat__text white">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        </p>
+            
+                                        <span class="white opacity">25/12/2020 | 10:55</span>
+                                    </div>
+        
+                                    <img src="./img/rent-user/chat-box/user-3.png" alt="" class="box-chat__img">
+        
+                                </div>
+                            </li>
+                        </ul>
+        
+                        <div class="box-chat__bottom">
+                            <div class="box-chat__bottom-left">
+                                <img src="./img/rent-user/chat-box/user-3.png" alt="" class="box-chat__user-img">
+        
+                                <textarea class="box-chat__input" name="" id="" placeholder="Nhập tin nhắn"></textarea>
+                            </div>
+        
+                            <div class="box-chat__bottom-right">
+                                <button class="box-chat__controls">
+                                    <img src="./img/rent-user/chat-box/bonus.svg" class="box-chat__controls-img" alt="">
+                                </button>
+        
+                                <button class="box-chat__controls">
+                                    <img src="./img/rent-user/chat-box/send.svg" class="box-chat__controls-img" alt="">
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -321,6 +468,198 @@
                         </div>
 
                         <div class="col col-xl-9 custom-col-9">
+                            <div class="tap-mobile">
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">TOP Đại Gia</a>
+                                    </li>
+    
+                                    <li class="nav-item" role="presentation">
+                                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Trò Chuyện</a>
+                                    </li>
+                                </ul>
+                                  <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="rich">
+                                            <ul class="rich-list">
+                                                <li class="rich-item">
+                                                    <div class="rich-inner">
+                                                        <h3 class="rich-heading">
+                                                            TOP ĐẠI GIA TUẦN
+                                                        </h3>
+                
+                                                        <div class="rich-content">
+                                                            <div class="rich-content__image">
+                                                                <img src="./img/user/user-2.png" alt="" class="rich-content__img">
+                                                                <img src="./img/user/user-3.png" alt="" class="rich-content__img">
+                                                                <img src="./img/user/user-4.png" alt="" class="rich-content__img">
+                                                            </div>
+                
+                                                            <span class="rich-content__quantity">
+                                                                +3
+                                                            </span>
+                
+                                                            <button class="rich-content__arrow">
+                                                                <img src="./img/user/arrow.svg" alt="" class="rich-content__arrow-img">
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="rich-item">
+                                                    <div class="rich-inner">
+                                                        <h3 class="rich-heading">
+                                                            TOP ĐẠI GIA THÁNG
+                                                        </h3>
+                
+                                                        <div class="rich-content">
+                                                            <div class="rich-content__image">
+                                                                <img src="./img/user/user-5.png" alt="" class="rich-content__img">
+                                                                <img src="./img/user/user-4.png" alt="" class="rich-content__img">
+                                                                <img src="./img/user/user-6.png" alt="" class="rich-content__img">
+                                                            </div>
+                
+                                                            <span class="rich-content__quantity">
+                                                                +3
+                                                            </span>
+                
+                                                            <button class="rich-content__arrow">
+                                                                <img src="./img/user/arrow.svg" alt="" class="rich-content__arrow-img">
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="rich-item">
+                                                    <div class="rich-inner">
+                                                        <h3 class="rich-heading">
+                                                            TOP ĐẠI GIA 
+                                                        </h3>
+                
+                                                        <div class="rich-content">
+                                                            <div class="rich-content__image">
+                                                                <img src="./img/user/user-7.png" alt="" class="rich-content__img">
+                                                                <img src="./img/user/user-5.png" alt="" class="rich-content__img">
+                                                                <img src="./img/user/user-3.png" alt="" class="rich-content__img">
+                                                            </div>
+                
+                                                            <span class="rich-content__quantity">
+                                                                +3
+                                                            </span>
+                
+                                                            <button class="rich-content__arrow">
+                                                                <img src="./img/user/arrow.svg" alt="" class="rich-content__arrow-img">
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                        <div class="talking">
+                                            <div class="talking-wrap">
+                                                <div class="talking-inner">
+                                                    <ul class="talking-list">
+                                                        <li class="talking-item">
+                                                            <img src="./img/user/user-2.png" alt="" class="talking-img">
+                
+                                                            <div class="talking-content">
+                                                                <div class="talking-content__head">
+                                                                    <span class="talking-content__name">
+                                                                        LinhTranDang
+                                                                    </span>
+                
+                                                                    <span class="talking-content__time">
+                                                                        12 phút trước
+                                                                    </span>
+                                                                </div>
+                
+                                                                <div class="talking-content__text">
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore tempor incididunt ut labore
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="talking-item">
+                                                            <img src="./img/user/user-8.png" alt="" class="talking-img">
+                
+                                                            <div class="talking-content">
+                                                                <div class="talking-content__head">
+                                                                    <span class="talking-content__name">
+                                                                        LinhTranDang
+                                                                    </span>
+                
+                                                                    <span class="talking-content__time">
+                                                                        8 phút trước
+                                                                    </span>
+                                                                </div>
+                
+                                                                <div class="talking-content__text">
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur 
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="talking-item">
+                                                            <img src="./img/user/user-9.png" alt="" class="talking-img">
+                
+                                                            <div class="talking-content">
+                                                                <div class="talking-content__head">
+                                                                    <span class="talking-content__name">
+                                                                        LinhTranDang
+                                                                    </span>
+                
+                                                                    <span class="talking-content__time">
+                                                                        8 phút trước
+                                                                    </span>
+                                                                </div>
+                
+                                                                <div class="talking-content__text">
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur 
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="talking-item">
+                                                            <img src="./img/user/user-10.png" alt="" class="talking-img">
+                
+                                                            <div class="talking-content">
+                                                                <div class="talking-content__head">
+                                                                    <span class="talking-content__name">
+                                                                        LinhTranDang
+                                                                    </span>
+                
+                                                                    <span class="talking-content__time">
+                                                                        8 phút trước
+                                                                    </span>
+                                                                </div>
+                
+                                                                <div class="talking-content__text">
+                                                                    <p>
+                                                                        Lorem ipsum dolor sit amet, consectetur 
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                
+                                                    <div class="talking-input">
+                                                        <input type="text" class="talking-input__box" placeholder="Nhập tin nhắn...">
+                
+                                                        <button class="talking-send">
+                                                            <img src="./img/user/send.svg" alt="" class="talking-send__img">
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+                            </div>
+
                             <ul class="rent-list">
                                 <li class="rent-item">
                                     <div class="rent-heading">
@@ -338,10 +677,14 @@
                                     <ul class="user-list">
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -407,10 +750,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -476,10 +823,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -545,10 +896,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -614,10 +969,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -683,10 +1042,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -750,6 +1113,39 @@
                                             </div>
                                         </li>
                                     </ul>
+
+                                    <div class="pagination">
+                                        <ul class="pagination-list">
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    2
+                                                </a>
+                                            </li>
+
+                                            <span>...</span>
+
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    8
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
 
                                 <li class="rent-item">
@@ -768,10 +1164,14 @@
                                     <ul class="user-list">
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -837,10 +1237,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -906,10 +1310,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -975,10 +1383,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1044,10 +1456,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1113,10 +1529,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1180,6 +1600,39 @@
                                             </div>
                                         </li>
                                     </ul>
+
+                                    <div class="pagination">
+                                        <ul class="pagination-list">
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    2
+                                                </a>
+                                            </li>
+
+                                            <span>...</span>
+
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    8
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
 
                                 <li class="rent-item">
@@ -1198,10 +1651,14 @@
                                     <ul class="user-list">
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1267,10 +1724,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1336,10 +1797,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1405,10 +1870,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1474,10 +1943,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1543,10 +2016,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1610,6 +2087,39 @@
                                             </div>
                                         </li>
                                     </ul>
+
+                                    <div class="pagination">
+                                        <ul class="pagination-list">
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    2
+                                                </a>
+                                            </li>
+
+                                            <span>...</span>
+
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    8
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
 
                                 <li class="rent-item">
@@ -1628,10 +2138,14 @@
                                     <ul class="user-list">
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1697,10 +2211,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1766,10 +2284,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1835,10 +2357,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1904,10 +2430,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -1973,10 +2503,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2040,6 +2574,39 @@
                                             </div>
                                         </li>
                                     </ul>
+
+                                    <div class="pagination">
+                                        <ul class="pagination-list">
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    2
+                                                </a>
+                                            </li>
+
+                                            <span>...</span>
+
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    8
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
 
                                 <li class="rent-item">
@@ -2058,10 +2625,14 @@
                                     <ul class="user-list">
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2127,10 +2698,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-2.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2196,10 +2771,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-3.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2265,10 +2844,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-4.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2334,10 +2917,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-5.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2403,10 +2990,14 @@
 
                                         <li class="user-item">
                                             <div class="user">
-                                                <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                <a href="./rent-user.html" class="user-link">
+                                                    <img src="././img/rent/user-1.png" alt="" class="user-img">
+                                                </a>
 
                                                 <div class="user-content">
-                                                    <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    <a href="./rent-user.html" class="user-link">
+                                                        <h4 class="user-name">Nam Hoàng Đặng</h4>
+                                                    </a>
 
                                                     <ul class="heart-list">
                                                         <li class="heart-item">
@@ -2470,6 +3061,39 @@
                                             </div>
                                         </li>
                                     </ul>
+
+                                    <div class="pagination">
+                                        <ul class="pagination-list">
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    2
+                                                </a>
+                                            </li>
+
+                                            <span>...</span>
+
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    8
+                                                </a>
+                                            </li>
+                                            <li class="pagination-item">
+                                                <a href="" class="pagination-link">
+                                                    <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -2478,5 +3102,7 @@
             </div>
         </div>
     </div>
+
+    <script src="./lib/js/rent/rent.js"></script>
 </body>
 </html>

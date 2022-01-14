@@ -570,7 +570,6 @@ a.info-image {
 .info-control__link {
     padding: 9.1px 23.2px;
     background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
-    box-shadow: 0px 6px 24px rgb(254 97 107 / 16%);
     border-radius: 8px;
     font-weight: 500;
     font-size: 16px;
@@ -1804,4 +1803,11 @@ li.feed-body__image-item:nth-child(5) {
     line-height: 20px;
     letter-spacing: 0.012em;
     color: rgba(101, 1, 7, 0.6);
+}
+
+.rent:hover, .donate:hover, .message:hover {
+    color: #fff;
+    box-shadow: 0px 6px 24px rgb(254 97 107 / 16%);
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    transition: all .5s;
 }
