@@ -7,7 +7,7 @@
     <title>5me.onl</title>
 
     <script src="./lib/bootstrap/js/jquery.slim.min.js"></script>
-    <script src="./lib/js/jquery.min.js"></script>
+    <script src="./lib/bootstrap/js/jquery.min.js"></script>
     <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./lib/css/history/history.css">
 </head>
 <body>
-
     <div class="main">
         <header class="header">
             <div class="container">
@@ -25,7 +24,6 @@
                             <img src="./img/user/logo.svg" alt="" class="header-logo__img">
                         </a>
                     </div>
-    
     
                     <div class="header-navbar">
                         <nav class="navbar">
@@ -86,7 +84,7 @@
                                         <ul class="navbar__notify-list">
                                             <li class="navbar__notify-item">
                                                 <a href="" class="navbar__notify-link navbar__notify-link--viewed">
-                                                    <img src="./img/user/user-1.svg" alt="" class="navbar__notify-img">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
                                                     <div class="navbar__notify-info">
                                                         <span class="navbar__notify-name">Áo thun The Nearest First-sight 100% Cotton Mùa Hè 2021</span>
                                                         <span class="navbar__notify-desc">Áo Tshirt First Sight Nearest được làm từ chất liệu cotton thoáng mát..</span>
@@ -96,7 +94,7 @@
         
                                             <li class="navbar__notify-item">
                                                 <a href="" class="navbar__notify-link navbar__notify-link--viewed">
-                                                    <img src="./img/user/user-1.svg" alt="" class="navbar__notify-img">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
                                                     <div class="navbar__notify-info">
                                                         <span class="navbar__notify-name">Áo thun nữ unisex tay lỡ form rộng love at first sight vải dày mịn </span>
                                                         <span class="navbar__notify-desc">Áo Tshirt First Sight...</span>
@@ -106,7 +104,7 @@
         
                                             <li class="navbar__notify-item">
                                                 <a href="" class="navbar__notify-link">
-                                                    <img src="./img/user/user-1.svg" alt="" class="navbar__notify-img">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
                                                     <div class="navbar__notify-info">
                                                         <span class="navbar__notify-name">VÁY LIỀN LOVE AT FIRST SIGHT</span>
                                                         <span class="navbar__notify-desc">Chiếc váy đơn giản nhưng lên dáng vô cùng xinh xắn nhẹ nhàng..</span>
@@ -131,7 +129,7 @@
                         <div class="header-account">
                             <div class="header-account__wrap">
                                 <div class="header-account__image">
-                                    <img src="./img/user/user-1.svg" alt="" class="header-account__img1">
+                                    <img src="./img/user/user-1.png" alt="" class="header-account__img1">
     
                                     <img src="./img/user/king.svg" alt="" class="header-account__img2">
                                 </div>
@@ -193,7 +191,7 @@
                         <div class="header-account__mobi">
                             <div class="header-account__wrap-mobi">
                                 <div class="header-account__image">
-                                    <img src="./img/user/user-1.svg" alt="" class="header-account__img1">
+                                    <img src="./img/user/user-1.png" alt="" class="header-account__img1">
     
                                     <img src="./img/user/king.svg" alt="" class="header-account__img2">
                                 </div>
@@ -272,32 +270,212 @@
 
                                 <div class="history-datagird">
                                     <table class="history-table">
-                                        <thead>
-                                            <tr>
-                                              <th>Ngày / Giờ</th>
-                                              <th>Loại giao dịch</th>
-                                              <th>Số dư trước giao dịch</th>
-                                              <th>Số tiền giao dịch</th>
-                                              <th>Loại giao dịch</th>
-                                              <th>Loại giao dịch</th>
+                                        <thead class="table__thead">
+                                            <tr class="table__head">
+                                              <th class="table__th">Ngày / Giờ</th>
+                                              <th class="table__th">Loại giao dịch</th>
+                                              <th class="table__th">Số dư trước giao dịch</th>
+                                              <th class="table__th">Số tiền giao dịch</th>
+                                              <th class="table__th">Số dư sau giao dịch</th>
+                                              <th class="table__th">Lời nhắn</th>
                                             </tr>
-                                          </thead>
-                                          <tbody>
+                                        </thead>
+                                        
+                                        <tbody class="table__tbody">
                                             <tr>
-                                              <td>January</td>
-                                              <td>$100</td>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
                                             </tr>
                                             <tr>
-                                              <td>February</td>
-                                              <td>$80</td>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">
+                                                    <span>
+                                                        Donate
+                                                    </span>
+
+                                                    <div class="table__tbody-child">
+                                                        <img src="./img/history/user.svg" alt="" class="table__tbody-child-img">
+                                                        <span>
+                                                            Le Hoang
+                                                        </span>
+                                                    </div>
+
+                                                </td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
                                             </tr>
-                                          </tbody>
-                                          <tfoot>
                                             <tr>
-                                              <td>Sum</td>
-                                              <td>$180</td>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
                                             </tr>
-                                          </tfoot>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                <td class="table__tbody__bold">Nạp tiền</td>
+                                                <td class="table__tbody__bold">160,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody__bold">120,000</td>
+                                                <td class="table__tbody-regular">
+                                                    <span class="table__tbody-text">
+                                                        Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                    </span>
+
+                                                    <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                </td>
+                                            </tr>
+                                        </tbody>
+
+                                        <div class="table__tfooter">
+                                            <div class="table__tfooter-tr">
+                                                <div class="table__footer__bold"><span class="table__footer-span">12</span>/40 người chơi</div>
+
+                                                <div class="table__footer__bold">
+                                                    <div class="pagination">
+                                                        <ul class="pagination-list">
+                                                            <li class="pagination-item">
+                                                                <a href="" class="pagination-link">
+                                                                    <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                                </a>
+                                                            </li>
+                                                            <li class="pagination-item">
+                                                                <a href="" class="pagination-link">
+                                                                    1
+                                                                </a>
+                                                            </li>
+                                                            <li class="pagination-item">
+                                                                <a href="" class="pagination-link">
+                                                                    2
+                                                                </a>
+                                                            </li>
+            
+                                                            <span >...</span>
+            
+                                                            <li class="pagination-item">
+                                                                <a href="" class="pagination-link">
+                                                                    8
+                                                                </a>
+                                                            </li>
+                                                            <li class="pagination-item">
+                                                                <a href="" class="pagination-link">
+                                                                    <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </table>
                                 </div>
                             </div>
@@ -308,5 +486,26 @@
         </div>
     </div>
 
+    <script>
+        $(document).ready(function(){
+            // $('.table__tbody-child').hide();
+
+            $('span.table__tbody-text').css('overflow','hidden');
+
+			//b2
+			$('.arrow-down').click(function(){
+				$('.arrow-down').removeClass('rotate');
+
+				// b3
+				$('.table__tbody-child').slideUp();
+
+				// nêm thằng tiếp theo của thằng vừa bấm chưa hiển thị
+				if( !$(this).next('.table__tbody-child').is(':visible')){
+					$(this).next('.table__tbody-child').slideDown();
+				    $(this).addClass('rotate');
+				}
+			});
+        });
+    </script>
 </body>
 </html>

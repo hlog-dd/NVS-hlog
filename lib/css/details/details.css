@@ -618,8 +618,8 @@ select {
 }
 
 .nation:focus-visible {
-    border: none;
-    outline: none;
+    outline: 1px solid #F2F2F2;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 3%);
 }
 
 .flag {
