@@ -1,0 +1,137 @@
+@media (max-width: 1040px) {
+    .history-search {
+        flex-direction: column;
+    }
+
+    input.history-input {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .history-form__select {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 756px) {
+    td.table__tbody-regular, td.table__tbody__bold {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 490px) {
+    .header-wrap__mobi {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 1;
+        align-items: center;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 16px;
+        transform: translate(0, -6%);
+        padding: 20px 16px 16px !important;
+        width: 100%;
+        background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    }
+
+    .content {
+        margin: 100px 0 60px 0;
+    }
+
+    .h3.history-heading {
+        display: none;
+    }
+
+    .header-mobi {
+        display: block;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .header-mobi__link {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .header-select__item:last-child {
+        padding: 0;
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(
+    81deg
+    ) brightness(104%) contrast(106%) !important;
+    }
+
+    .header-select__link {
+        background: rgba(255, 255, 255, 0.24) !important;
+        backdrop-filter: blur(8px);
+    }
+
+    .header-select__img {
+        width: 28px !important;
+    }
+
+    .header-select__item:last-child > .header-select__link {
+        background: transparent !important;
+        backdrop-filter: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .header-logo, .header-select {
+        display: block !important;
+    }
+
+    .history-form__select {
+        margin-right: 8px;
+    }
+}
+
+@media (max-width: 375px) {
+    .history-search {
+        padding: 16px 12px;
+    }
+
+    input.history-input {
+        padding: 5px 16px;
+    }
+
+    button.history-btn {
+        padding: 10px;
+    }
+
+
+    input.history-input::placeholder {
+        font-size: 14px;
+    }
+
+    img.history-btn__img {
+        width: 16px;
+        height: 16px;
+    }
+
+    select#history-type, button.history-btn {
+        height: 36px;
+    }
+
+    select#history-type {
+        font-size: 14px;
+        padding: 4px 16px 4px;
+    }
+
+    .table__footer__bold:first-child {
+        display: none
+    }
+
+    .table__tfooter-tr {
+        justify-content: center;
+    }
+}

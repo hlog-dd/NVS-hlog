@@ -216,8 +216,19 @@
 
 @media (max-width: 768px) {
     .form-address__flag {
-        left: 2.4%;
-        transform: translate(-2%, -55%);
+        display: none;
+    }
+
+    .flag {
+        padding: 12px 0 12px 16px !important;
+    }
+
+    .form-address__dropdown {
+        top: 40%;
+    }
+
+    .nation {
+        margin: 0 0 16px;
     }
 }
 
@@ -262,12 +273,18 @@
     }
 
     .form-info {
-        padding: 32px 24px 24px;
+        padding: 22px 16px 22px;
+    }
+
+    .form-address {
+        padding: 24px 16px;
     }
 
     .statistical-heading {
         font-size: 13px;
     }
+
+
 }
 
 @media (max-width: 536px) { 
@@ -361,7 +378,7 @@
     }
 
     .header-select__link {
-        background: rgba(255, 255, 255, 0.24);
+        background: rgba(255, 255, 255, 0.24) !important;
         backdrop-filter: blur(8px);
     }
 
@@ -370,15 +387,25 @@
     }
 
     .header-select__item:last-child > .header-select__link {
-        background: transparent;
+        background: transparent !important;
         backdrop-filter: none;
     }
 
     .header-select__item:last-child {
         padding: 0;
-        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(81deg) brightness(104%) contrast(106%);
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(81deg) brightness(104%) contrast(106%) !important;
     }
-}       
+
+    .header-select__img {
+        width: 28px !important;
+    }
+}  
+
+@media (max-width: 430px) {
+    .header-logo, .header-select {
+        display: block !important;
+    }
+}
 
 @media (max-width: 428px) {
     .header-mobi__link {
@@ -390,9 +417,6 @@
         color: #FFFFFF;
     }
 
-    .header-select__img {
-        width: 28px;
-    }
 
     .header-select__link {
         width: 36px;
@@ -437,6 +461,14 @@
     .header-select__link {
         width: 32px;
         height: 32px;
+    }
+
+    .flag {
+        margin: 0;
+    }
+
+    .form-address {
+        padding: 16px 16px;
     }
 
     .header-select__img {
@@ -517,9 +549,5 @@
     .save-btn {
         width: 100%;
         font-size: 14px;
-    }
-
-    .password {
-        min-height: 370px;
     }
 }

@@ -11,8 +11,10 @@
     <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./lib/css/base.css">
+    <link rel="stylesheet" href="./lib/css/common/base.css">
     <link rel="stylesheet" href="./lib/css/history/history.css">
+    <link rel="stylesheet" href="./lib/css/history/reponsive.css">
+    <link rel="stylesheet" href="./lib/css/common/header.css">
 </head>
 <body>
     <div class="main">
@@ -25,11 +27,12 @@
                         </a>
                     </div>
     
+    
                     <div class="header-navbar">
                         <nav class="navbar">
                             <ul class="navbar-list">
                                 <li class="navbar-item">
-                                    <a href="./user.html" class="navbar-link">
+                                    <a href="./user.html" class="navbar-link ">
                                         <span>
                                             Trang chủ
                                         </span>
@@ -71,7 +74,7 @@
                                     <a href="" class="header-select__link">
                                         <div class="header-select__link-wrap">
                                             <img src="./img/user/noti.svg" alt="" class="header-select__img">
-    
+
                                             <img src="./img/user/circle-sm.svg" alt="" class="header-select__dote">
                                         </div>
                                     </a>
@@ -145,7 +148,7 @@
                                     </span>
                                 </div>
                             </div>
-    
+
                             <ul class="subnav">
                                 <li class="subnav-item">
                                     <button class="subnav-link" id="recharge">
@@ -158,7 +161,7 @@
                                     </a>
                                 </li>
                                 <li class="subnav-item">
-                                    <a href="" class="subnav-link">
+                                    <a href="./history.html" class="subnav-link">
                                         Lịch sử giao dịch
                                     </a>
                                 </li>
@@ -173,13 +176,13 @@
                                     </a>
                                 </li>
                             </ul>
-    
+
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="nav__overlay"></div>
-    
+
                 <div class="navbar-mobi">
                     <div class="navbar-mobi__top">
                         <div class="navbar-mobi__btn-wrap">
@@ -187,7 +190,7 @@
                                 <img src="./img/user/close.svg" alt="" class="navbar-mobi__close-img">
                             </button>
                         </div>
-    
+
                         <div class="header-account__mobi">
                             <div class="header-account__wrap-mobi">
                                 <div class="header-account__image">
@@ -208,7 +211,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <ul class="navbar-mobi__list">
                             <li class="navbar-mobi__item">
                                 <a href="./user.html" class="navbar-mobi__link">
@@ -227,7 +230,149 @@
                             </li>
                         </ul>
                     </div>
+
+                    <div class="navbar-mobi__bottom">
+                        <a href="./login.html" class="navbar-mobi__btn-logout">
+                            <span>Đăng xuất</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <header class="header-mobi">
+            <div class="container">
+                <div class="header-wrap__mobi">
+                    <div class="header-mobi__title">
+                        <a href="" class="header-mobi__link">
+                            Thuê người chơi
+                        </a>
+                    </div>
+
+                    <div class="header-right">
+                        <div class="header-select">
+                            <ul class="header-select__list">
+                                <li class="header-select__item">
+                                    <a href="" class="header-select__link">
+                                        <img src="./img/user/zoom-mobi.svg" alt="" class="header-select__img">
+                                    </a>
+                                </li>
+                                <li class="header-select__item">
+                                    <button class="header-select__link">
+                                        <img src="./img/user/mes-mb.svg" alt="" class="header-select__img">
+                                    </button>    
+                                </li>
+                                <li class="header-select__item">
+                                    <a href="" class="header-select__link">
+                                        <div class="header-select__link-wrap">
+                                            <img src="./img/user/noti-mb.svg" alt="" class="header-select__img">
+
+                                            <img src="./img/user/dot-mb.svg" alt="" class="header-select__dote">
+                                        </div>
+                                    </a>
+                                    
+                                    <div class="navbar__notify">
+                                        <header class="navbar__notify-header">
+                                            <h3>Thông báo mới nhận</h3>
+                                        </header>
+        
+                                        <ul class="navbar__notify-list">
+                                            <li class="navbar__notify-item">
+                                                <a href="" class="navbar__notify-link navbar__notify-link--viewed">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
+                                                    <div class="navbar__notify-info">
+                                                        <span class="navbar__notify-name">Áo thun The Nearest First-sight 100% Cotton Mùa Hè 2021</span>
+                                                        <span class="navbar__notify-desc">Áo Tshirt First Sight Nearest được làm từ chất liệu cotton thoáng mát..</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+        
+                                            <li class="navbar__notify-item">
+                                                <a href="" class="navbar__notify-link navbar__notify-link--viewed">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
+                                                    <div class="navbar__notify-info">
+                                                        <span class="navbar__notify-name">Áo thun nữ unisex tay lỡ form rộng love at first sight vải dày mịn </span>
+                                                        <span class="navbar__notify-desc">Áo Tshirt First Sight...</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+        
+                                            <li class="navbar__notify-item">
+                                                <a href="" class="navbar__notify-link">
+                                                    <img src="./img/user/user-1.png" alt="" class="navbar__notify-img">
+                                                    <div class="navbar__notify-info">
+                                                        <span class="navbar__notify-name">VÁY LIỀN LOVE AT FIRST SIGHT</span>
+                                                        <span class="navbar__notify-desc">Chiếc váy đơn giản nhưng lên dáng vô cùng xinh xắn nhẹ nhàng..</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+        
+                                        <footer class="navbar__notify-footer">
+                                            <a href="" class="navbar__notify-footer-btn">Xem tất cả</a>
+                                        </footer>
+                                    </div>
+                                </li>
+                                <li class="header-select__item">
+                                    <button class="header-select__link">
+                                        <img src="./img/user/Menu.svg" alt="" class="header-select__img">
+                                    </button>    
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nav__overlay"></div>
+
+                <div class="navbar-mobi">
+                    <div class="navbar-mobi__top">
+                        <div class="navbar-mobi__btn-wrap">
+                            <button class="navbar-mobi__close ">
+                                <img src="./img/user/close.svg" alt="" class="navbar-mobi__close-img">
+                            </button>
+                        </div>
+
+                        <div class="header-account__mobi">
+                            <div class="header-account__wrap-mobi">
+                                <div class="header-account__image">
+                                    <img src="./img/user/user-1.png" alt="" class="header-account__img1">
     
+                                    <img src="./img/user/king.svg" alt="" class="header-account__img2">
+                                </div>
+    
+    
+                                <div class="header-account__info">
+                                    <span class="header-account__name">
+                                        HoangNguyen
+                                    </span>
+    
+                                    <span class="header-account__price">
+                                        15,000 <span>đ</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="navbar-mobi__list">
+                            <li class="navbar-mobi__item">
+                                <a href="./user.html" class="navbar-mobi__link">
+                                    Trang chủ
+                                </a>
+                            </li>
+                            <li class="navbar-mobi__item">
+                                <a href="./rent-user.html" class="navbar-mobi__link">
+                                    Thuê người chơi
+                                </a>
+                            </li>
+                            <li class="navbar-mobi__item">
+                                <a href="" class="navbar-mobi__link">
+                                    Đang theo dõi
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                     <div class="navbar-mobi__bottom">
                         <a href="./login.html" class="navbar-mobi__btn-logout">
                             <span>Đăng xuất</span>
@@ -250,22 +395,24 @@
                                 <div class="history-search">
                                     <input type="text" placeholder="Từ khóa tìm kiếm" class="history-input">
 
-                                    <div class="history-form__select">
-                                        <select name="" id="history-type">
-                                            <option value="0"> 
-                                                Loại giao dịch
-                                            </option>
-
-                                            <option value="1">Nạp tiền</option>
-                                            <option value="2">Donate</option>
-                                        </select>
-
-                                        <span class="history-form__dropdown"></span>
+                                    <div class="history-search__right">
+                                        <div class="history-form__select">
+                                            <select name="" id="history-type">
+                                                <option value="0"> 
+                                                    Loại giao dịch
+                                                </option>
+    
+                                                <option value="1">Nạp tiền</option>
+                                                <option value="2">Donate</option>
+                                            </select>
+    
+                                            <span class="history-form__dropdown"></span>
+                                        </div>
+    
+                                        <button class="history-btn">
+                                            <img src="./img/history/search.svg" alt="" class="history-btn__img">
+                                        </button>
                                     </div>
-
-                                    <button class="history-btn">
-                                        <img src="./img/history/search.svg" alt="" class="history-btn__img">
-                                    </button>
                                 </div>
 
                                 <div class="history-datagird">

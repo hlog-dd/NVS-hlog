@@ -10,9 +10,11 @@
     <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./lib/css/base.css">
+
+    <link rel="stylesheet" href="./lib/css/common/base.css">
     <link rel="stylesheet" href="./lib/css/details/details.css">
     <link rel="stylesheet" href="./lib/css/details/reponsive.css">
+    <link rel="stylesheet" href="./lib/css/common/header.css">
 </head>
 <body>
     <div class="main">
@@ -380,279 +382,277 @@
             </div>
         </header>
 
-        <form action="">
-            <div class="content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-xl-4 col-md-4 custom-col-4">
-                            <div class="content-left">
-                                <div class="user">
-                                    <div class="user-top__inner">
-                                        <div id="imagePreview" alt="" class="user-img">
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xl-4 col-md-4 custom-col-4">
+                        <div class="content-left">
+                            <div class="user">
+                                <div class="user-top__inner">
+                                    <div id="imagePreview" alt="" class="user-img">
 
-                                        </div>
-                                        
-                                        <label for="imageUpload" class="user-top__label">
-                                            <img src="./img/details/change-img.svg" alt="" class="user-top__img">
-                                            <input class="user-top__btn" type="file" id="imageUpload" hidden accept=".png, .jpg, .jpeg"/>
-                                        </label>
-    
                                     </div>
-    
-    
-                                    <div class="user-content">
-                                        <h3 class="user-name">
-                                            Trần Thị Thùy Linh  
-                                        </h3>
-    
-                                        <div class="user-faculty">
-                                            <div class="user-faculty__rank">
-                                                <img src="./img/details/king.svg" alt="" class="user-faculty__img">
-    
-                                                <span>Thành viên vàng</span>
-                                            </div>
-    
-                                            <div class="user-faculty__rank">
-                                                <img src="./img/details/dolar.svg" alt="" class="user-faculty__img">
-    
-                                                <div class="user-faculty__price">
-                                                    15,000 <span>đ</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="col col-xl-8 col-md-8 custom-col-8">
-                            <div class="content-right">
-                                <div class="statistical">
-                                    <div class="row">
-                                        <div class="col-12 col-xl-4 col-md-4">
-                                            <div class="statistical-inner">
-                                                <span class="statistical-heading">
-                                                    TỔNG TIỀN ĐÃ NẠP
-                                                </span>
-    
-                                                <div class="statistical-price">
-                                                    7,500,000 <span>đ</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 col-xl-4 col-md-4">
-                                            <div class="statistical-inner ml-9">
-                                                <span class="statistical-heading">
-                                                    TIỀN ĐÃ DONATE
-                                                </span>
-    
-                                                <div class="statistical-price">
-                                                    550,000 <span>đ</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6 col-xl-4 col-md-4">
-                                            <div class="statistical-inner mr-9">
-                                                <span class="statistical-heading">
-                                                    SỐ GIỜ ĐÃ THUÊ
-                                                </span>
-    
-                                                <div class="statistical-price">
-                                                    120 <span>giờ</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                                <div class="form-fill">
-                                    <form action="" class="form-fill__wrap">
-                                        <div class="form-info">
-                                            <div class="row">
-                                                <div class="col-12 col-xl-6 col-md-6">
-                                                    <div class="form-inner">
-                                                        <label for="" class="form-info__name">
-                                                            Họ & Tên
-                                                        </label>
-    
-                                                        <input type="text" placeholder="Nguyễn Đình Trần Thiện" class="form-info__input">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-xl-6 col-md-6">
-                                                    <div class="form-inner">
-                                                        <label for="" class="form-info__name">
-                                                            Biệt Danh
-                                                        </label>
-    
-                                                        <input type="text" placeholder="Thiện Kathy" class="form-info__input">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-xl-6 col-md-6">
-                                                    <div class="form-inner">
-                                                        <label for="" class="form-info__name">
-                                                            Ngày Sinh
-                                                        </label>
-    
-                                                        <input type="text" placeholder="05/12/1992" class="form-info__input">
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-xl-6 col-md-6">
-                                                    <div class="form-inner">
-                                                        <label for="" class="form-info__name">
-                                                            Giới tính
-                                                        </label>
-    
-                                                        <div class="form-sex">
-                                                            <input type="checkbox" hidden class="form-sex__select" id="male">
-                                                                <label for="male" class="male">
-                                                                    Nam
-                                                                </label> 
-                                                            </input>
-    
-                                                            <input type="checkbox" hidden class="form-sex__select" id="female">
-                                                                <label for="female" class="female">
-                                                                    Nữ
-                                                                </label>
-                                                            </input>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>  
-    
-                                        <div class="form-address">
-                                            <div class="row">
-                                                <div class="col-12 col-xl-4 col-md-4">
-                                                    <div class="form-address__inner">
-                                                        <label for="" class="form-address__name">
-                                                            Quốc Gia
-                                                        </label>
-    
-                                                        <div class="form-address__select">
-                                                            <select name="" class="nation">
-                                                                <option value="0">Việt Nam</option>
-                                                                <option value="1">Singapore</option>
-                                                                <option value="2">Lào</option>
-                                                                <option value="3">Thái Lan</option>
-                                                                <option value="4">Trung Quốc</option>
-                                                            </select>
-    
-                                                            <span class="form-address__dropdown"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-xl-4 col-md-4">
-                                                    <div class="form-address__inner">
-                                                        <label for="" class="form-address__name">
-                                                            Thành Phố
-                                                        </label>
-    
-                                                        <div class="form-address__select">
-                                                            <select name="" class="nation">
-                                                                <option value="0"> 
-                                                                    Hồ Chí Minh
-                                                                </option>
-    
-                                                                <option value="1">Singapore</option>
-                                                                <option value="2">Lào</option>
-                                                                <option value="3">Thái Lan</option>
-                                                                <option value="4">Trung Quốc</option>
-                                                            </select>
-    
-                                                            <span class="form-address__dropdown"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-xl-4 col-md-4">
-                                                    <div class="form-address__inner">
-                                                        <label for="" class="form-address__name">
-                                                            Ngôn Ngữ
-                                                        </label>
-    
-                                                        <div class="form-address__select">
-                                                            <select name="" class="nation flag" >
-                                                                <option value="0"> 
-                                                                    Tiếng Việt
-                                                                </option>
-    
-                                                                <option value="1">Tiếng Anh</option>
-                                                                <option value="2">Tiếng Pháp</option>
-                                                                <option value="3">Tiếng Đức</option>
-                                                            </select>
-                                                            <span class="form-address__flag"></span>
-                                                            <span class="form-address__dropdown"></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-    
-                                <div class="password">
-                                    <span class="pass-title">
-                                        Mật Khẩu
-                                    </span>
-    
-                                    <img src="./img/details/dote.svg" alt="" class="pass-img">
-    
-                                    <label for="pass-change" class="pass-change">
-                                        Đổi mật khẩu
+                                    
+                                    <label for="imageUpload" class="user-top__label">
+                                        <img src="./img/details/change-img.svg" alt="" class="user-top__img">
+                                        <input class="user-top__btn" type="file" id="imageUpload" hidden accept=".png, .jpg, .jpeg"/>
                                     </label>
-    
-                                    <input type="checkbox" hidden  name="" class="pass-change__show" id="pass-change">
-    
-                                    <div class="pass-sub">
+
+                                </div>
+
+
+                                <div class="user-content">
+                                    <h3 class="user-name">
+                                        Trần Thị Thùy Linh  
+                                    </h3>
+
+                                    <div class="user-faculty">
+                                        <div class="user-faculty__rank">
+                                            <img src="./img/details/king.svg" alt="" class="user-faculty__img">
+
+                                            <span>Thành viên vàng</span>
+                                        </div>
+
+                                        <div class="user-faculty__rank">
+                                            <img src="./img/details/dolar.svg" alt="" class="user-faculty__img">
+
+                                            <div class="user-faculty__price">
+                                                15,000 <span>đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-xl-8 col-md-8 custom-col-8">
+                        <div class="content-right">
+                            <div class="statistical">
+                                <div class="row">
+                                    <div class="col-12 col-xl-4 col-md-4">
+                                        <div class="statistical-inner">
+                                            <span class="statistical-heading">
+                                                TỔNG TIỀN ĐÃ NẠP
+                                            </span>
+
+                                            <div class="statistical-price">
+                                                7,500,000 <span>đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-xl-4 col-md-4">
+                                        <div class="statistical-inner ml-9">
+                                            <span class="statistical-heading">
+                                                TIỀN ĐÃ DONATE
+                                            </span>
+
+                                            <div class="statistical-price">
+                                                550,000 <span>đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-xl-4 col-md-4">
+                                        <div class="statistical-inner mr-9">
+                                            <span class="statistical-heading">
+                                                SỐ GIỜ ĐÃ THUÊ
+                                            </span>
+
+                                            <div class="statistical-price">
+                                                120 <span>giờ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-fill">
+                                <form action="" class="form-fill__wrap">
+                                    <div class="form-info">
                                         <div class="row">
-                                            <div class="col-xl-4">
-                                                <div class="pass-wrap">
-                                                    <label for="" class="pass-name">
-                                                        Mật Khẩu Cũ
+                                            <div class="col-12 col-xl-6 col-md-6">
+                                                <div class="form-inner">
+                                                    <label for="" class="form-info__name">
+                                                        Họ & Tên
                                                     </label>
-        
-                                                    <div class="pass-form__hidden">
-                                                        <input type="password" name="" id="myInput" class="pass-form__input">
-        
-                                                        <input type="checkbox" hidden class="pass-form__hidden-btn" id="showpass" onclick="myFunction()">
-        
-                                                        <label for="showpass">
-                                                            <img src="./img/details/eyes.svg" alt="" class="pass-form__input-eye">
-                                                        </label>
+
+                                                    <input type="text" placeholder="Nguyễn Đình Trần Thiện" class="form-info__input">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-xl-6 col-md-6">
+                                                <div class="form-inner">
+                                                    <label for="" class="form-info__name">
+                                                        Biệt Danh
+                                                    </label>
+
+                                                    <input type="text" placeholder="Thiện Kathy" class="form-info__input">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-xl-6 col-md-6">
+                                                <div class="form-inner">
+                                                    <label for="" class="form-info__name">
+                                                        Ngày Sinh
+                                                    </label>
+
+                                                    <input type="date" class="form-info__input">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-xl-6 col-md-6">
+                                                <div class="form-inner">
+                                                    <label for="" class="form-info__name">
+                                                        Giới tính
+                                                    </label>
+
+                                                    <div class="form-sex">
+                                                        <input type="checkbox" hidden class="form-sex__select" id="male">
+                                                            <label for="male" class="male">
+                                                                Nam
+                                                            </label> 
+                                                        </input>
+
+                                                        <input type="checkbox" hidden class="form-sex__select" id="female">
+                                                            <label for="female" class="female">
+                                                                Nữ
+                                                            </label>
+                                                        </input>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-4">
-                                                <div class="pass-wrap">
-                                                    <label for="" class="pass-name">
-                                                        Mật Khẩu Mới
+                                        </div>
+                                    </div>  
+
+                                    <div class="form-address">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-4 col-md-4">
+                                                <div class="form-address__inner">
+                                                    <label for="" class="form-address__name">
+                                                        Quốc Gia
                                                     </label>
-        
-                                                    <div class="pass-form__hidden">
-                                                        <input type="password" name="" id="myInput1" class="pass-form__input">
-        
-                                                        <input type="checkbox" hidden class="pass-form__hidden-btn" id="showpass-new" onclick="myFunction1()">
-        
-                                                        <label for="showpass-new">
-                                                            <img src="./img/details/eyes.svg" alt="" class="pass-form__input-eye">
-                                                        </label>
+
+                                                    <div class="form-address__select">
+                                                        <select name="" class="nation">
+                                                            <option value="0">Việt Nam</option>
+                                                            <option value="1">Singapore</option>
+                                                            <option value="2">Lào</option>
+                                                            <option value="3">Thái Lan</option>
+                                                            <option value="4">Trung Quốc</option>
+                                                        </select>
+
+                                                        <span class="form-address__dropdown"></span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-xl-4">
-                                                <div class="pass-wrap">
-                                                    <label for="" class="pass-name">
-                                                        Nhập Lại Mật Khẩu Mới
+                                            <div class="col-12 col-xl-4 col-md-4">
+                                                <div class="form-address__inner">
+                                                    <label for="" class="form-address__name">
+                                                        Thành Phố
                                                     </label>
-        
-                                                    <div class="pass-form__hidden">
-                                                        <input type="password" name="" id="myInput2" class="pass-form__input">
-        
-                                                        <input type="checkbox" hidden class="pass-form__hidden-btn" id="showpass-again" onclick="myFunction2()">
-        
-                                                        <label for="showpass-again">
-                                                            <img src="./img/details/eyes.svg" alt="" class="pass-form__input-eye">
-                                                        </label>
+
+                                                    <div class="form-address__select">
+                                                        <select name="" class="nation">
+                                                            <option value="0"> 
+                                                                Hồ Chí Minh
+                                                            </option>
+
+                                                            <option value="1">Singapore</option>
+                                                            <option value="2">Lào</option>
+                                                            <option value="3">Thái Lan</option>
+                                                            <option value="4">Trung Quốc</option>
+                                                        </select>
+
+                                                        <span class="form-address__dropdown"></span>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-xl-4 col-md-4">
+                                                <div class="form-address__inner">
+                                                    <label for="" class="form-address__name">
+                                                        Ngôn Ngữ
+                                                    </label>
+
+                                                    <div class="form-address__select">
+                                                        <select name="" class="nation flag" >
+                                                            <option value="0"> 
+                                                                Tiếng Việt
+                                                            </option>
+
+                                                            <option value="1">Tiếng Anh</option>
+                                                            <option value="2">Tiếng Pháp</option>
+                                                            <option value="3">Tiếng Đức</option>
+                                                        </select>
+                                                        <span class="form-address__flag"></span>
+                                                        <span class="form-address__dropdown"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="password">
+                                <span class="pass-title">
+                                    Mật Khẩu
+                                </span>
+
+                                <img src="./img/details/dote.svg" alt="" class="pass-img">
+
+                                <label for="pass-change" class="pass-change">
+                                    Đổi mật khẩu
+                                </label>
+
+                                <input type="checkbox" hidden  name="" class="pass-change__show" id="pass-change">
+
+                                <div class="pass-sub">
+                                    <div class="row">
+                                        <div class="col-xl-4">
+                                            <div class="pass-wrap">
+                                                <label for="" class="pass-name">
+                                                    Mật Khẩu Cũ
+                                                </label>
+    
+                                                <div class="pass-form__hidden">
+                                                    <input type="password" name="" id="myInput" class="pass-form__input">
+    
+                                                    <input type="checkbox" hidden class="pass-form__hidden-btn" id="showpass" onclick="myFunction()">
+    
+                                                    <label for="showpass">
+                                                        <img src="./img/details/eyes.svg" alt="" class="pass-form__input-eye">
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="pass-wrap">
+                                                <label for="" class="pass-name">
+                                                    Mật Khẩu Mới
+                                                </label>
+    
+                                                <div class="pass-form__hidden">
+                                                    <input type="password" name="" id="myInput1" class="pass-form__input">
+    
+                                                    <input type="checkbox" hidden class="pass-form__hidden-btn" id="showpass-new" onclick="myFunction1()">
+    
+                                                    <label for="showpass-new">
+                                                        <img src="./img/details/eyes.svg" alt="" class="pass-form__input-eye">
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="pass-wrap">
+                                                <label for="" class="pass-name">
+                                                    Nhập Lại Mật Khẩu Mới
+                                                </label>
+    
+                                                <div class="pass-form__hidden">
+                                                    <input type="password" name="" id="myInput2" class="pass-form__input">
+    
+                                                    <input type="checkbox" hidden class="pass-form__hidden-btn" id="showpass-again" onclick="myFunction2()">
+    
+                                                    <label for="showpass-again">
+                                                        <img src="./img/details/eyes.svg" alt="" class="pass-form__input-eye">
+                                                    </label>
                                                 </div>
                                             </div>
                                         </div>
@@ -663,17 +663,17 @@
                     </div>
                 </div>
             </div>
-    
-            <div class="footer">    
-                <div class="container">
-                    <div class="save">
-                        <button class="save-btn">
-                            Lưu lại
-                        </button>
-                    </div>
+        </div>
+
+        <div class="footer">    
+            <div class="container">
+                <div class="save">
+                    <button class="save-btn">
+                        Lưu lại
+                    </button>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
 
     <div class="box-chat" id="box-chat">

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Black.eot');
-    src: url('../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Black.woff2') format('woff2'),
-        url('../fonts/Montserrat-Black.woff') format('woff'),
-        url('../fonts/Montserrat-Black.ttf') format('truetype'),
-        url('../fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
+    src: url('../../fonts/Montserrat-Black.eot');
+    src: url('../../fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Black.woff') format('woff'),
+        url('../../fonts/Montserrat-Black.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Black.svg#Montserrat-Black') format('svg');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Bold.eot');
-    src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Bold.woff2') format('woff2'),
-        url('../fonts/Montserrat-Bold.woff') format('woff'),
-        url('../fonts/Montserrat-Bold.ttf') format('truetype'),
-        url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    src: url('../../fonts/Montserrat-Bold.eot');
+    src: url('../../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Bold.woff') format('woff'),
+        url('../../fonts/Montserrat-Bold.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -26,12 +26,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-ExtraLight.eot');
-    src: url('../fonts/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
-        url('../fonts/Montserrat-ExtraLight.woff') format('woff'),
-        url('../fonts/Montserrat-ExtraLight.ttf') format('truetype'),
-        url('../fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight') format('svg');
+    src: url('../../fonts/Montserrat-ExtraLight.eot');
+    src: url('../../fonts/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('../../fonts/Montserrat-ExtraLight.woff') format('woff'),
+        url('../../fonts/Montserrat-ExtraLight.ttf') format('truetype'),
+        url('../../fonts/Montserrat-ExtraLight.svg#Montserrat-ExtraLight') format('svg');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -39,12 +39,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Light.eot');
-    src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Light.woff2') format('woff2'),
-        url('../fonts/Montserrat-Light.woff') format('woff'),
-        url('../fonts/Montserrat-Light.ttf') format('truetype'),
-        url('../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
+    src: url('../../fonts/Montserrat-Light.eot');
+    src: url('../../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Light.woff') format('woff'),
+        url('../../fonts/Montserrat-Light.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -52,12 +52,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Medium.eot');
-    src: url('../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Medium.woff2') format('woff2'),
-        url('../fonts/Montserrat-Medium.woff') format('woff'),
-        url('../fonts/Montserrat-Medium.ttf') format('truetype'),
-        url('../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    src: url('../../fonts/Montserrat-Medium.eot');
+    src: url('../../fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Medium.woff') format('woff'),
+        url('../../fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -65,12 +65,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Regular.eot');
-    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
-        url('../fonts/Montserrat-Regular.woff') format('woff'),
-        url('../fonts/Montserrat-Regular.ttf') format('truetype'),
-        url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    src: url('../../fonts/Montserrat-Regular.eot');
+    src: url('../../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -78,12 +78,12 @@
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('../fonts/Montserrat-Thin.eot');
-    src: url('../fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Montserrat-Thin.woff2') format('woff2'),
-        url('../fonts/Montserrat-Thin.woff') format('woff'),
-        url('../fonts/Montserrat-Thin.ttf') format('truetype'),
-        url('../fonts/Montserrat-Thin.svg#Montserrat-Thin') format('svg');
+    src: url('../../fonts/Montserrat-Thin.eot');
+    src: url('../../fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('../../fonts/Montserrat-Thin.woff') format('woff'),
+        url('../../fonts/Montserrat-Thin.ttf') format('truetype'),
+        url('../../fonts/Montserrat-Thin.svg#Montserrat-Thin') format('svg');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -180,56 +180,7 @@ label {
     display: none;
 }
 
-
-/* Key frame */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-/* tạo ra chuyển động liên tiếp của modal*/
-@keyframes modalFaceIn {
-    from {
-        opacity: 0;
-        transform: translateY(-500px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Làm cho kéo trục toast vào trái */
-@keyframes slideInLeft {
-    from {
-        opacity: 0;
-        transform: translateX(calc(100% + 32px));
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes navbarNotiGrowth {
-    from {
-        opacity: 0;
-        /* độ lớn lên phóng to thu nhỏ của nó */
-        transform: scale(0);
-    }
-
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
-
+/* Zoom image CSS */
 .img-popup {
     position: fixed;
     top: 0;
@@ -245,7 +196,6 @@ label {
     -webkit-animation: pop-in 0.5s;
     -moz-animation: pop-in 0.5s;
     -ms-animation: pop-in 0.5s;
-
 }
 
 .img-popup img {
@@ -270,6 +220,7 @@ label {
     z-index: 99;
     cursor: pointer;
 }
+
 .lightboxfadeout{
     animation: fadeout;
     animation-duration: 0.5s;
@@ -278,11 +229,14 @@ label {
     -ms-animation: fadeout 0.5s;
 }
 
+
+/* Key frame */
 @keyframes pop-in {
     0% {
         opacity: 0;
         transform: scale(0.1);
     }
+
     100% {
         opacity: 1;
         transform: scale(1);
@@ -294,6 +248,7 @@ label {
         opacity: 0;
         -webkit-transform: scale(0.1);
     }
+
     100% {
         opacity: 1;
         -webkit-transform: scale(1);
@@ -305,6 +260,7 @@ label {
         opacity: 0;
         -moz-transform: scale(0.1);
     }
+
     100% {
         opacity: 1;
         -moz-transform: scale(1);
@@ -317,6 +273,7 @@ label {
         opacity: 0;
         transform: scale(0.1);
     }
+
     0% {
         opacity: 1;
         transform: scale(1);
@@ -328,6 +285,7 @@ label {
         opacity: 0;
         -webkit-transform: scale(0.1);
     }
+
     0% {
         opacity: 1;
         -webkit-transform: scale(1);
@@ -339,8 +297,59 @@ label {
         opacity: 0;
         -moz-transform: scale(0.1);
     }
+
     0% {
         opacity: 1;
         -moz-transform: scale(1);
+    }
+}
+
+/* Làm cho kéo trục toast vào trái */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes navbarNotiGrowth {
+    from {
+        opacity: 0;
+        /* độ lớn lên phóng to thu nhỏ của nó */
+        transform: scale(0);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Key frame */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* tạo ra chuyển động liên tiếp của modal*/
+@keyframes modalFaceIn {
+    from {
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
