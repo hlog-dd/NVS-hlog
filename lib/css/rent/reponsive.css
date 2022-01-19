@@ -20,6 +20,7 @@
     .header-logo__img {
         width: 130px;
     }
+
 }
 
 @media (max-width: 992px) {
@@ -62,13 +63,38 @@
     .nav-pills .nav-link.active {
         font-weight: 600;
         font-size: 14px;
-        line-height: 20px;
+        line-height: 32px;
         text-align: center;
         letter-spacing: 0.012em;
         text-transform: capitalize;
         color: #FE616B;
         background: #fff;
         padding: 14px 0 8px;
+        border-bottom: 1px solid;
+        border-radius: 0;
+    }
+
+    
+    .nav-pills .nav-link {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: rgba(101, 1, 7, 0.2);
+    }
+
+    .nav-pills .nav-link.active {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: #FE616B;
+        background: #fff;
+        padding: 10px 0 8px;
         border-bottom: 1px solid;
         border-radius: 0;
     }
@@ -97,7 +123,7 @@
     }
 
     .talking-inner {
-        padding: 32px 12px 42px;
+        padding: 0px 12px 42px;
         background: #FEFEFE;
         border-radius: 0px 24px 24px 24px;
     }
@@ -182,6 +208,13 @@
     }
 }
 
+@media (max-width: 756px) {
+    li.user-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
 @media (max-width: 652px) {
     ul.rent-list {
         margin: 0 -12px;
@@ -195,7 +228,6 @@
 
     .user {
         background-color: #f8f8f8;
-        min-width: 222px
     }
 
     .pagination {
@@ -248,13 +280,13 @@
 }
 
 @media (max-width: 492px) {
+    button.rent-refesh {
+        padding: 10px 14px;
+    }
+
     img.user-img {
         width: 100px;
         height: 100px;
-    }
-
-    .user {
-        min-width: 164px;
     }
 
     ul.user-list {
@@ -316,6 +348,10 @@
 }
 
 @media (max-width: 375px) {
+    h3.rent-heading__text {
+        font-size: 14px;
+    }
+
     .talking-item:nth-child(1) {
         display: none;
     }
