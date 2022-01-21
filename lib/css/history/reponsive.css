@@ -83,6 +83,14 @@
         background: transparent !important;
         backdrop-filter: none;
     }
+    
+    .table__footer__bold:first-child {
+        display: none
+    }
+
+    .table__tfooter-tr {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 430px) {
@@ -127,11 +135,4 @@
         padding: 4px 16px 4px;
     }
 
-    .table__footer__bold:first-child {
-        display: none
-    }
-
-    .table__tfooter-tr {
-        justify-content: center;
-    }
 }

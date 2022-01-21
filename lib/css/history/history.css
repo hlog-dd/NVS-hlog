@@ -117,12 +117,12 @@ button.history-btn {
     justify-content: center;
 }
 
+.history-table__wrap {
+    overflow: auto;
+}
+
 table.history-table {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    overflow-x: auto;
-    white-space: nowrap;
+    width: 1280px;
 }
 
 .history-search__right {
@@ -145,7 +145,7 @@ img.arrow-down {
 
 .table__thead {
     background: rgba(254, 97, 107, 0.06);
-    border-radius: 24px 24px 0px 0px;
+    white-space: nowrap;
 }
 
 th.table__th {
@@ -162,26 +162,18 @@ th.table__th:first-child {
     padding: 14px 0;
 }
 
-.table__tbody > tr > .table__tbody__bold:nth-child(5) {
-
-}
-
 th.table__th:last-child {
     border-radius: 0 24px 0 0;
     width: 372px;
 }
 
-tbody.table__tbody, tfoot.table__tfooter {
+tbody.table__tbody {
     background: #fff;
-    width: 100%;
+    white-space: nowrap;
 }
 
 .table__tbody > tr {
     border-bottom: 1px solid #F2F2F2;
-}
-
-tfoot.table__tfooter {
-
 }
 
 tr.table__head > .table__th:first-child {
@@ -217,6 +209,7 @@ td.table__tbody-regular {
     letter-spacing: 0.012em;
     color: rgba(101, 1, 7, 0.6);
     padding: 0px 19px 0px 26px;  
+    vertical-align: text-top;
 }
 
 td.table__tbody__bold {
@@ -231,6 +224,7 @@ td.table__tbody__bold {
 .table__tbody__bold:nth-child(5) {
     text-align: right;
     padding-right: 36px;
+    vertical-align: text-top;
 }
 
 .table__tbody__bold:nth-child(2) {
@@ -267,7 +261,7 @@ li.pagination-item {
 
 .history-datagird {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .table__tfooter-tr {
@@ -301,18 +295,28 @@ li.pagination-item {
     margin-right: 2px;
 }
 
+tbody.table__tbody > tr {
+    cursor: pointer;
+    transition: all .5s linear;
+}
+
 span.table__tbody-text {
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    /* white-space: nowrap;
-    text-overflow: ellipsis; */
+    text-overflow: ellipsis;
+    max-width: 320px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 16px 0;
 }
 
 .table__tbody-child {
     display: flex;
     align-items: center;
-    padding: 4px 0 12px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.38);
+    display: none;
+    margin-top: 4px;
 }
 
 .table__tbody-child span {
@@ -332,4 +336,39 @@ span.table__tbody-text {
 
 a.pagination-link:hover {
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.exe2up {
+    display: block;
+}
+
+.messup {
+    white-space: normal !important;
+}
+
+#style-14::-webkit-scrollbar-track
+{
+	background-color:#fff
+}
+
+#style-14::-webkit-scrollbar
+{
+	background-color:#fff;
+    width:16px
+}
+
+#style-14::-webkit-scrollbar-track:hover {
+    background-color:#f4f4f4
+}
+
+#style-14::-webkit-scrollbar-thumb
+{
+	background-color:#babac0;
+    border-radius:16px;
+    border:5px solid #fff
+}
+
+#style-14::-webkit-scrollbar-thumb:hover {
+    background-color:#a0a0a5;
+    border:4px solid #f4f4f4
 }

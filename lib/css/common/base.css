@@ -176,10 +176,6 @@ label {
     padding: 0 12px;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 /* Zoom image CSS */
 .img-popup {
     position: fixed;
