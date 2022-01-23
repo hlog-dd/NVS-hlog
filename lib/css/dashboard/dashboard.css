@@ -63,9 +63,9 @@ body {
 /* End */
 
 /* Section dashboard CSS */
-#dashboard {
-    display: block;
-}
+/* #dashboard {
+    display: none;
+} */
 
 .statistical {
     margin-bottom: 32px;
@@ -219,9 +219,9 @@ img.statistics-table__img {
 /* End */
 
 /* Section info CSS */
-#info {
+/* #info {
     display: none;
-}
+} */
 
 .header-info {
     display: flex;
@@ -571,9 +571,9 @@ img.about-details__img {
 /* End */
 
 /* Section setting CSS */
-#setting {
+/* #setting {
     display: none;
-}
+} */
 
 #setting > .row > .col  > .sideBar {
     min-height: calc(100vh - 22vh);
@@ -664,9 +664,9 @@ img.rent-select__img {
 }
 
 /* Section withdrawal CSS */
-#withdrawal {
+/* #withdrawal {
     display: none;
-}
+} */
 
 #withdrawal > .row > .col  > .sideBar {
     min-height: calc(100vh - 22vh);
@@ -873,13 +873,95 @@ button.cards-btn:hover {
 }
 
 /* Section details CSS */
-#details {
+/* #details {
     display: none;
+} */
+
+input.history-input {
+    max-width: 580px;
+    flex: none;
 }
 
 /* Section liked CSS */
-#liked {
+/* #liked {
     display: none;
+} */
+
+.liked-inner {
+    background: #fff;
+    padding: 32px 78px;
+    border-radius: 0px 24px 24px 0px;
+}
+
+.nav {
+    border-bottom: 1px solid rgba(254, 97, 107, 0.16);
+    display: inline-flex;
+}
+
+.nav-pills .nav-link.active {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+    background: transparent;
+    border-bottom: 1px solid #FE616B;
+}
+
+.nav-pills .nav-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.32);
+    border-radius: 0;
+}
+
+.hired-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#pills-tabContent {
+    margin-top: 20px;
+}
+
+ul.hired-list {
+    margin-bottom: 6px;
+}
+
+li.hired-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+    padding: 12px 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+li.hired-item:last-child {
+    border-bottom: none;
+}
+
+.hired-together, .hired-info {
+    flex: 1;
+}
+
+img.hired-info__img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.hired-footer__tr {
+    padding-bottom: 0;
 }
 
 /* Section tutorial CSS */

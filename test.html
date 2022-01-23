@@ -1,0 +1,1995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="./lib/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./lib/css/common/base.css">
+    <link rel="stylesheet" href="./lib/css/history/history.css">
+    <link rel="stylesheet" href="./lib/css/dashboard/dashboard.css">
+    <link rel="stylesheet" href="./lib/css/history/reponsive.css">
+    <link rel="stylesheet" href="./lib/css/common/header.css">
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <section id="dashboard">
+                <div class="row">
+                    <div class="col col-xl-3">
+                        <div class="sideBar">
+                            <ul class="sideBar-list">
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Dashboard
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Thông tin
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Rút tiền
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Lịch sử giao dịch
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Người thích tôi
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Hướng dẫn
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Cài đặt
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col col-xl-9">
+                        <div class="content-right">
+                            <div class="statistical">
+                                <div class="row m-8">
+                                    <div class="col-xl-3 custom-col-3 p-8">
+                                        <div class="statistical-inner">
+                                            <span class="statistical-heading">
+                                                TỔNG DOANH THU
+                                            </span>
+        
+                                            <div class="statistical-price">
+                                                7,500,000 <span>đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 custom-col-3 p-8">
+                                        <div class="statistical-inner ml-9">
+                                            <span class="statistical-heading">
+                                                DOANH THU TUẦN
+                                            </span>
+        
+                                            <div class="statistical-price">
+                                                550,000 <span>đ</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 custom-col-6 p-8">
+                                        <div class="merge">
+                                            <div class="statistical-inner mr-9">
+                                                <span class="statistical-heading">
+                                                    DOANH THU THÁNG
+                                                </span>
+        
+                                                <div class="statistical-price">
+                                                    550,000 <span>đ</span>
+                                                </div>
+                                            </div>
+        
+                                            <div class="places">
+                                                <span class="places-text">
+                                                    THỨ HẠNG
+                                                </span>
+        
+                                                <span class="places-number">
+                                                    6,450
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="statistical-details">
+                                <h2 class="statistics-heading">
+                                    Thống Kê
+                                </h2>
+        
+                                <div class="statistics-time">
+                                    <span class="statistics-title">
+                                        Doanh thu theo ngày
+                                    </span>
+        
+                                    <div class="statistics-btn">
+                                        <button class="statistics-datetime">
+                                            <span class="statistics-text">
+                                                Ngày
+                                            </span>
+                                        </button>
+        
+                                        <button class="statistics-datetime btn-month">
+                                            <span class="statistics-text">
+                                                Tháng
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class="statistics-table">
+                                    <img src="./img/dashboard/dashboard/table.png" alt="" class="statistics-table__img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="info">
+                <div class="row">
+                    <div class="col col-xl-3">
+                        <div class="sideBar">
+                            <ul class="sideBar-list">
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Dashboard
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Thông tin
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Rút tiền
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Lịch sử giao dịch
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Người thích tôi
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Hướng dẫn
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Cài đặt
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col col-xl-9">
+                        <div class="info-wrap">
+                            <header class="header-info">
+                                <div class="header-info__right">
+                                    <div class="user-top__inner">
+                                        <div id="imagePreview" alt="" class="user-img">
+        
+                                        </div>
+                                        
+                                        <label for="imageUpload" class="user-top__label">
+                                            <img src="./img/details/change-img.svg" alt="" class="user-top__img">
+                                            <input class="user-top__btn" type="file" id="imageUpload" hidden="" accept=".png, .jpg, .jpeg">
+                                        </label>
+                                    </div>
+        
+                                    <div class="header-info__content">
+                                        <h3 class="header-info__name">
+                                            Nguyễn Đình Trần Thiện
+                                        </h3>
+        
+                                        <span>
+                                            ThienNguyen0324
+                                        </span>
+                                    </div>
+                                </div>
+        
+                                <div class="header-info__left">
+                                    <ul class="header-info__list">
+                                        <li class="header-info__item">
+                                            <a href="" class="header-info__link">
+                                                <img src="./img/dashboard/info/fb.png" alt="" class="header-info__img">
+                                            </a>
+                                        </li>
+                                        <li class="header-info__item">
+                                            <a href="" class="header-info__link">
+                                                <img src="./img/dashboard/info/ig.png" alt="" class="header-info__img">
+                                            </a>
+                                        </li>
+                                        <li class="header-info__item">
+                                            <a href="" class="header-info__link">
+                                                <img src="./img/dashboard/info/tiktok.png" alt="" class="header-info__img">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </header>
+        
+                            <div class="content-info">
+                                <div class="info-inner">
+                                    <div class="contact">
+                                        <div class="contact-top">
+                                            <div class="row">
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Chủ tài khoản
+                                                        </label>
+        
+                                                        <input type="text" placeholder="Nguyễn Đình Trần Thiện" class="form-info__input">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Nickname
+                                                        </label>
+        
+                                                        <input type="text" placeholder="ThienNguyen0324" class="form-info__input">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Số tài khoản
+                                                        </label>
+        
+                                                        <input type="text" placeholder="0123 456 7890" class="form-info__input">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Ngân hàng
+                                                        </label>
+        
+                                                        <div class="form-address__select">
+                                                            <select name="" class="nation">
+                                                                <option value="0">Ngân hàng Á Châu ACB</option>
+                                                                <option value="1">Ngân hàng Tiên Phong</option>
+                                                                <option value="2">Ngân hàng Kỹ Thương Việt Nam</option>
+                                                                <option value="3">Ngân hàng Quân đội</option>
+                                                                <option value="4">Ngân hàng Công Thương Việt Nam</option>
+                                                            </select>
+        
+                                                            <span class="form-address__dropdown"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Link URL
+                                                        </label>
+        
+                                                        <div class="form-info__url mb-8">
+                                                            <label class="container-c">
+                                                                https://www.google.com/?gws_rd=ssl
+                                                                <input type="checkbox" checked="checked">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </div>
+        
+                                                        <div class="form-info__url">
+                                                            <label class="container-c">
+                                                                https://vnexpress.net/
+                                                                <input type="checkbox">
+                                                                <span class="checkmark"></span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="info-inner">
+                                    <div class="game">
+                                        <div class="game-inner">
+                                            <span class="form-info__name">
+                                                Game
+                                            </span>
+        
+                                            <ul class="game-list">
+                                                <li class="game-item">
+                                                    <a href="" class="game-link">
+                                                        <div class="game-info">
+                                                            <img src="./img/dashboard/info/g-1.png" alt="" class="game-img">
+        
+                                                            <span class="game-name">
+                                                                Call Of Duty
+                                                            </span>
+        
+                                                            <div class="game-check">
+                                                                <div class="form-info__url">
+                                                                    <label class="container-c">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="game-item">
+                                                    <a href="" class="game-link">
+                                                        <div class="game-info">
+                                                            <img src="./img/dashboard/info/g-2.png" alt="" class="game-img">
+        
+                                                            <span class="game-name">
+                                                                Liên minh huyền thoại
+                                                            </span>
+        
+                                                            <div class="game-check">
+                                                                <div class="form-info__url">
+                                                                    <label class="container-c">
+                                                                        <input type="checkbox">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="game-item">
+                                                    <a href="" class="game-link">
+                                                        <div class="game-info">
+                                                            <img src="./img/dashboard/info/g-3.png" alt="" class="game-img">
+        
+                                                            <span class="game-name">
+                                                                Fifa online 4
+                                                            </span>
+        
+                                                            <div class="game-check">
+                                                                <div class="form-info__url">
+                                                                    <label class="container-c">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="game-item">
+                                                    <a href="" class="game-link">
+                                                        <div class="game-info">
+                                                            <img src="./img/dashboard/info/g-4.png" alt="" class="game-img">
+        
+                                                            <span class="game-name">
+                                                                Võ lâm truyền kỳ 2
+                                                            </span>
+        
+                                                            <div class="game-check">
+                                                                <div class="form-info__url">
+                                                                    <label class="container-c">
+                                                                        <input type="checkbox">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="game-item">
+                                                    <a href="" class="game-link">
+                                                        <div class="game-info">
+                                                            <img src="./img/dashboard/info/g-5.png" alt="" class="game-img">
+        
+                                                            <span class="game-name">
+                                                                Liên quân Mobile
+                                                            </span>
+        
+                                                            <div class="game-check">
+                                                                <div class="form-info__url">
+                                                                    <label class="container-c">
+                                                                        <input type="checkbox">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="game-item">
+                                                    <a href="" class="game-link">
+                                                        <div class="game-info">
+                                                            <img src="./img/dashboard/info/g-6.png" alt="" class="game-img">
+        
+                                                            <span class="game-name">
+                                                                PUBG
+                                                            </span>
+        
+                                                            <div class="game-check">
+                                                                <div class="form-info__url">
+                                                                    <label class="container-c">
+                                                                        <input type="checkbox" checked="checked">
+                                                                        <span class="checkmark"></span>
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="game-inner mt-16">
+                                            <span class="form-info__name">
+                                                Danh hiệu
+                                            </span>
+        
+                                            <input type="text" class="form-info__input">
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="info-inner">
+                                    <div class="about">
+                                        <div class="about-inner">
+                                            <div class="about-short">
+                                                <span class="form-info__name">
+                                                    Game
+                                                </span>
+        
+                                                <textarea type="text" placeholder="Giới thiệu ngắn về bản thân" class="md-donate__input"></textarea>
+                                            </div>
+                                        </div>
+        
+                                        <div class="about-inner">
+                                            <div class="about-image">
+                                                <span class="form-info__name">
+                                                    Ảnh
+                                                </span>
+        
+                                                <ul class="about-image__list">
+                                                    <li class="about-image__item">
+                                                        <label for="about-image__input" class="about-image__label">
+                                                            <img src="./img/dashboard/info/add.png" alt="" class="about-image__add">
+        
+                                                            <span class="about-image__text">
+                                                                Thêm ảnh
+                                                            </span>
+                                                        </label>
+        
+                                                        <input type="file" hidden id="about-image__input" class="about-image__input">
+                                                    </li>
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-1.png" alt="" class="about-image__img">
+                                                    </li>
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-2.png" alt="" class="about-image__img">
+                                                    </li>
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-3.png" alt="" class="about-image__img">
+                                                    </li>
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-4.png" alt="" class="about-image__img">
+                                                    </li>
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-5.png" alt="" class="about-image__img">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+        
+                                        <div class="about-inner">
+                                            <div class="about-video">
+                                                <span class="form-info__name">
+                                                    Video
+                                                </span>
+        
+                                                <ul class="about-image__list">
+                                                    <li class="about-image__item">
+                                                        <label for="about-image__input" class="about-image__label">
+                                                            <img src="./img/dashboard/info/add.png" alt="" class="about-image__add">
+        
+                                                            <span class="about-image__text">
+                                                                Thêm video
+                                                            </span>
+                                                        </label>
+        
+                                                        <input type="file" hidden id="about-image__input" class="about-image__input">
+                                                    </li>
+        
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-6.png" alt="" class="about-image__img">
+                                                    </li>
+        
+                                                    <li class="about-image__item">
+                                                        <img src="./img/dashboard/info/pic-7.png" alt="" class="about-image__img">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+        
+                                        <div class="about-inner">
+                                            <div class="about-details">
+                                                <span class="form-info__name">
+                                                    Giới thiệu Chi tiết
+                                                </span>
+        
+                                                <div class="about-details__table">
+                                                    <img src="./img/dashboard/info/table.png" alt="" class="about-details__img">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="footer"> 
+                    <div class="container">
+                        <div class="save">
+                            <button class="save-btn">
+                                Lưu lại
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="setting">
+                <div class="row">
+                    <div class="col col-xl-3">
+                        <div class="sideBar">
+                            <ul class="sideBar-list">
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Dashboard
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Thông tin
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Rút tiền
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Lịch sử giao dịch
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Người thích tôi
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Hướng dẫn
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Cài đặt
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col col-xl-9">
+                        <div class="setting-wrap">
+                            <div class="setting-inner">
+                                <div class="rent-max">
+                                    <div class="rent-max__heading">
+                                        <span class="form-info__name">
+                                            Thời gian thuê tối đa
+                                        </span>
+        
+                                        <div class="rent-max__control">
+                                            <button class="rent-max__btn">
+                                                <img src="./img/dashboard/setting/minus.svg" alt="" class="rent-max__img">
+                                            </button>
+                                            <button class="rent-max__btn">
+                                                <img src="./img/dashboard/setting/add.svg" alt="" class="rent-max__img">
+                                            </button>
+                                        </div>
+                                    </div>
+        
+                                    <input type="text" placeholder="8 Giờ" class="form-info__input">
+                                </div>
+        
+                                <div class="rent-onl">
+                                    <span class="form-info__name">
+                                        Bật online khi
+                                    </span>
+        
+                                    <ul class="time-list">
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    08:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    10:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    12:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    14:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    16:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    18:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    20:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                        <li class="time-item">
+                                            <button class="time-btn">
+                                                <span>
+                                                    22:00
+                                                </span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+        
+                                <div class="rent-select">
+                                    <span class="form-info__name">
+                                        Các loại dịch vụ thuê
+                                    </span>
+        
+                                    <div class="form-address__select">
+                                        <select name="" class="nation text-rgba">
+                                            <option value="0"> 
+                                                Nhập / Chọn loại dịch vụ thuê
+                                            </option>
+        
+                                            <option value="1">Chơi game chung</option>
+                                            <option value="2">Tán gẫu qua voice chat</option>
+                                            <option value="3">Xem phim online chung</option>
+                                            <option value="4">Khác</option>
+                                        </select>
+        
+                                        <span class="form-address__dropdown"></span>
+                                    </div>
+        
+                                    <ul class="rent-select__list">
+                                        <li class="rent-select__item">
+                                            <button class="rent-select__btn">
+                                                <span>Chơi game chung</span>
+        
+                                                <img src="./img/dashboard/setting/close.svg" alt="" class="rent-select__img">
+                                            </button>
+                                        </li>
+                                        <li class="rent-select__item">
+                                            <button class="rent-select__btn">
+                                                <span>Tán gẫu qua voice chat</span>
+        
+                                                <img src="./img/dashboard/setting/close.svg" alt="" class="rent-select__img">
+                                            </button>
+                                        </li>
+                                        <li class="rent-select__item">
+                                            <button class="rent-select__btn">
+                                                <span>Xem phim online chung</span>
+        
+                                                <img src="./img/dashboard/setting/close.svg" alt="" class="rent-select__img">
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="footer"> 
+                    <div class="container">
+                        <div class="save">
+                            <button class="save-btn">
+                                Lưu lại
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="withdrawal">
+                <div class="row">
+                    <div class="col col-xl-3">
+                        <div class="sideBar">
+                            <ul class="sideBar-list">
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Dashboard
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Thông tin
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Rút tiền
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Lịch sử giao dịch
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Người thích tôi
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Hướng dẫn
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Cài đặt
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col col-xl-9">
+                        <div class="withdrawal-wrap">
+                            <div class="withdrawal-inner">
+                                <span class="form-info__name">
+                                    Chọn hình thức rút tiền
+                                </span>
+        
+                                <div class="withdrawal-form">
+                                    <div>
+                                        <input type="radio" id="test1" name="radio-group">
+                                        <label for="test1">Chuyển khoản</label>
+        
+                                        <div class="transfer">
+                                            <div class="transfer-inner">
+                                                <ul class="transfer-list">
+                                                    <li class="transfer-item">
+                                                        <span class="form-info__name">
+                                                            Tài Khoản
+                                                        </span>
+        
+                                                        <input type="text" placeholder="Nhập tài khoản" class="form-info__input">
+                                                    </li>
+                                                    <li class="transfer-item">
+                                                        <span class="form-info__name">
+                                                            Số Tiền
+                                                        </span>
+        
+                                                        <input type="text" placeholder="Nhập số tiền" class="form-info__input">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="test2" name="radio-group">
+                                        <label for="test2">Thẻ cào</label>
+        
+                                        <div class="cards">
+                                            <div class="cards-wrap">
+                                                <div class="cards-select">
+                                                    <span class="form-info__name">
+                                                        Chọn Loại Thẻ
+                                                    </span>
+        
+                                                    <ul class="cards-list">
+                                                        <li class="cards-item">
+                                                            <button class="cards-btn">
+                                                                <img src="./img/dashboard/withdrawal/viettel.png" alt="" class="cards-img">
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-item">
+                                                            <button class="cards-btn">
+                                                                <img src="./img/dashboard/withdrawal/mobi.png" alt="" class="cards-img">
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-item">
+                                                            <button class="cards-btn">
+                                                                <img src="./img/dashboard/withdrawal/vina.png" alt="" class="cards-img">
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-item">
+                                                            <button class="cards-btn">
+                                                                <img src="./img/dashboard/withdrawal/vn-mobi.png" alt="" class="cards-img">
+                                                            </button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+        
+                                                <div class="cards-price">
+                                                    <span class="form-info__name">
+                                                        Mệnh Giá
+                                                    </span>
+        
+                                                    <ul class="cards-price__list">
+                                                        <li class="cards-price__item">
+                                                            <button class="cards-price__btn">
+                                                                <span class="cards-price__number">
+                                                                    10,000
+                                                                </span>
+        
+                                                                <span>đ</span>
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-price__item">
+                                                            <button class="cards-price__btn">
+                                                                <span class="cards-price__number">
+                                                                    20,000
+                                                                </span>
+        
+                                                                <span>đ</span>
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-price__item">
+                                                            <button class="cards-price__btn">
+                                                                <span class="cards-price__number">
+                                                                    50,000
+                                                                </span>
+        
+                                                                <span>đ</span>
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-price__item">
+                                                            <button class="cards-price__btn">
+                                                                <span class="cards-price__number">
+                                                                    100,000
+                                                                </span>
+        
+                                                                <span>đ</span>
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-price__item">
+                                                            <button class="cards-price__btn">
+                                                                <span class="cards-price__number">
+                                                                    200,000
+                                                                </span>
+        
+                                                                <span>đ</span>
+                                                            </button>
+                                                        </li>
+                                                        <li class="cards-price__item">
+                                                            <button class="cards-price__btn">
+                                                                <span class="cards-price__number">
+                                                                    500,000
+                                                                </span>
+        
+                                                                <span>đ</span>
+                                                            </button>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+        
+                                                <div class="receiver">
+                                                    <span class="form-info__name">
+                                                        Nhận Qua
+                                                    </span>
+        
+                                                    <div class="receiver-block">
+                                                        <input type="radio" id="rd-email" name="radio-group">
+                                                        <label for="rd-email">Email</label>
+        
+                                                        <input type="text" placeholder="nguyenthien12@gmail.com" class="receiver-input">
+                                                    </div>
+        
+                                                    <div class="receiver-block">
+                                                        <input type="radio" id="rd-phone" name="radio-group">
+                                                        <label for="rd-phone">Số điện thoại</label>
+        
+                                                        <input type="text" class="receiver-input">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="footer"> 
+                    <div class="container">
+                        <div class="save">
+                            <button class="save-btn">
+                                Lưu lại
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="details">
+                <div class="row">
+                    <div class="col col-xl-3">
+                        <div class="sideBar">
+                            <ul class="sideBar-list">
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Dashboard
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Thông tin
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Rút tiền
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Lịch sử giao dịch
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Người thích tôi
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Hướng dẫn
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Cài đặt
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col col-xl-9">
+                        <div class="history">
+                            <div class="h3 history-heading">
+                                Lịch Sử Giao Dịch
+                            </div>
+        
+                            <div class="history-form">
+                                <div class="history-search">
+                                    <input type="text" placeholder="Từ khóa tìm kiếm" class="history-input">
+        
+                                    <div class="history-search__right">
+                                        <div class="history-form__select">
+                                            <select name="" id="history-type">
+                                                <option value="0"> 
+                                                    Loại giao dịch
+                                                </option>
+        
+                                                <option value="1">Nạp tiền</option>
+                                                <option value="2">Donate</option>
+                                            </select>
+        
+                                            <span class="history-form__dropdown"></span>
+                                        </div>
+        
+                                        <button class="history-btn">
+                                            <img src="./img/history/search.svg" alt="" class="history-btn__img">
+                                        </button>
+                                    </div>
+                                </div>
+        
+                                <div class="history-datagird">
+                                    <div class="history-table__wrap" id="style-14">
+                                        <table class="history-table">
+                                            <thead class="table__thead">
+                                                <tr class="table__head">
+                                                    <th class="table__th">Ngày / Giờ</th>
+                                                    <th class="table__th">Loại giao dịch</th>
+                                                    <th class="table__th">Số dư trước giao dịch</th>
+                                                    <th class="table__th">Số tiền giao dịch</th>
+                                                    <th class="table__th">Số dư sau giao dịch</th>
+                                                    <th class="table__th">Lời nhắn</th>
+                                                </tr>
+                                            </thead>
+                                            
+                                            <tbody class="table__tbody">
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">
+                                                        <span>
+                                                            Donate
+                                                        </span>
+        
+                                                        <div class="table__tbody-child">
+                                                            <img src="./img/history/user.svg" alt="" class="table__tbody-child-img">
+                                                            <span>
+                                                                Le Hoang
+                                                            </span>
+                                                        </div>
+        
+                                                    </td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="table__tbody-regular">05/12/2020 - 08:40</td>
+                                                    <td class="table__tbody__bold">Nạp tiền</td>
+                                                    <td class="table__tbody__bold">160,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody__bold">120,000</td>
+                                                    <td class="table__tbody-regular">
+                                                        <span class="table__tbody-text">
+                                                            Lorem ipsum dolor sit amet, consadq lorem ipsum dolor sit amet
+                                                        </span>
+        
+                                                        <img src="./img/history/arow-down.svg" alt="" class="arrow-down">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="table__tfooter">
+                                        <div class="table__tfooter-tr">
+                                            <div class="table__footer__bold"><span class="table__footer-span">12</span>/40 người chơi</div>
+        
+                                            <div class="table__footer__bold">
+                                                <div class="pagination">
+                                                    <ul class="pagination-list">
+                                                        <li class="pagination-item">
+                                                            <a href="" class="pagination-link">
+                                                                <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                            </a>
+                                                        </li>
+                                                        <li class="pagination-item">
+                                                            <a href="" class="pagination-link">
+                                                                1
+                                                            </a>
+                                                        </li>
+                                                        <li class="pagination-item">
+                                                            <a href="" class="pagination-link">
+                                                                2
+                                                            </a>
+                                                        </li>
+        
+                                                        <span >...</span>
+        
+                                                        <li class="pagination-item">
+                                                            <a href="" class="pagination-link">
+                                                                8
+                                                            </a>
+                                                        </li>
+                                                        <li class="pagination-item">
+                                                            <a href="" class="pagination-link">
+                                                                <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section id="liked">
+                <div class="row">
+                    <div class="col col-xl-3">
+                        <div class="sideBar">
+                            <ul class="sideBar-list">
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Dashboard
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Thông tin
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Rút tiền
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Lịch sử giao dịch
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Người thích tôi
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Hướng dẫn
+                                        </span>
+                                    </button>
+                                </li>
+                                <li class="sideBar-item">
+                                    <button class="sideBar-btn">
+                                        <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+        
+                                        <span class="sideBar-text">
+                                            Cài đặt
+                                        </span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <div class="col col-xl-9">
+                        <div class="liked-wrap">
+                            <div class="liked-inner">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Những người đã thuê tôi</a>
+                                    </li>
+        
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Những người theo dõi tôi</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                        <div class="hired">
+                                            <ul class="hired-list">
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/1.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nguyễn Đình Toàn Thiện
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Chơi game chung</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/2.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Trần Trọng Hoàng
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua voice chat</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/3.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nguyễn Khắc Hải Đăng
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Xem phim online chung</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/4.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Trần Thùy Linh
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Livestream fanpage</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/5.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Phạm Thị Thảo Nguyên
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua video call</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/6.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nghĩa Trần
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Chơi game chung</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/7.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Đào Quang Khải
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua video call</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/8.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nguyễn Đình Toàn Thiện
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Livestream fanpage</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/9.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Trần Văn Ơn
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua voice chat</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+        
+                                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                        <div class="follow">
+                                            <ul class="hired-list">
+                                                <!-- <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/1.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nguyễn Đình Toàn Thiện
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Chơi game chung</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li> -->
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/2.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Trần Trọng Hoàng
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua voice chat</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/3.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nguyễn Khắc Hải Đăng
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+
+                                                            <span>Xem phim online chung</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/4.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Trần Thùy Linh
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Livestream fanpage</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/5.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Phạm Thị Thảo Nguyên
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua video call</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/6.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nghĩa Trần
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Chơi game chung</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/7.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Đào Quang Khải
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Tán gẫu qua video call</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+                                                    <div class="hired-inner">
+                                                        <div class="hired-info">
+                                                            <img src="./img/dashboard/like/8.png" alt="" class="hired-info__img">
+        
+                                                            <span class="hired-name">
+                                                                Nguyễn Đình Toàn Thiện
+                                                            </span>
+                                                        </div>
+        
+                                                        <div class="hired-together">
+                                                            <span>Livestream fanpage</span>
+                                                        </div>
+        
+                                                        <div class="hired-time">
+                                                            <span>8 giờ</span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li class="hired-item">
+        </div>
+                                                <div class="hired-inner">
+                                                    <div class="hired-info">
+                                                        <img src="./img/dashboard/like/9.png" alt="" class="hired-info__img">
+    
+                                                        <span class="hired-name">
+                                                            Trần Văn Ơn
+                                                        </span>
+                                                    </div>
+    
+                                                    <div class="hired-together">
+                                                        <span>Tán gẫu qua voice chat</span>
+                                                    </div>
+    
+                                                    <div class="hired-time">
+                                                        <span>8 giờ</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="hired-footer">
+                                <div class="table__tfooter-tr hired-footer__tr">
+                                    <div class="table__footer__bold"><span class="table__footer-span">12</span>/40 người chơi</div>
+    
+                                    <div class="table__footer__bold">
+                                        <div class="pagination">
+                                            <ul class="pagination-list">
+                                                <li class="pagination-item">
+                                                    <a href="" class="pagination-link">
+                                                        <img src="./img/rent-user/page/arrow-1.svg" alt="" class="pagination-img">
+                                                    </a>
+                                                </li>
+                                                <li class="pagination-item">
+                                                    <a href="" class="pagination-link">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li class="pagination-item">
+                                                    <a href="" class="pagination-link">
+                                                        2
+                                                    </a>
+                                                </li>
+    
+                                                <span>...</span>
+    
+                                                <li class="pagination-item">
+                                                    <a href="" class="pagination-link">
+                                                        8
+                                                    </a>
+                                                </li>
+                                                <li class="pagination-item">
+                                                    <a href="" class="pagination-link">
+                                                        <img src="./img/rent-user/page/arrow-2.svg" alt="" class="pagination-img">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="tutorial">
+            <div class="row">
+                <div class="col col-xl-3">
+                    <div class="sideBar">
+                        <ul class="sideBar-list">
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/dashboard.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Dashboard
+                                    </span>
+                                </button>
+                            </li>
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/user.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Thông tin
+                                    </span>
+                                </button>
+                            </li>
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/withdraw.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Rút tiền
+                                    </span>
+                                </button>
+                            </li>
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/repeat.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Lịch sử giao dịch
+                                    </span>
+                                </button>
+                            </li>
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/heart.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Người thích tôi
+                                    </span>
+                                </button>
+                            </li>
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Hướng dẫn
+                                    </span>
+                                </button>
+                            </li>
+                            <li class="sideBar-item">
+                                <button class="sideBar-btn">
+                                    <img src="./img/dashboard/sideBar/setting.svg" alt="" class="sideBar-img">
+    
+                                    <span class="sideBar-text">
+                                        Cài đặt
+                                    </span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="col col-xl-9">
+    
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+</html>
