@@ -37,6 +37,62 @@ body {
     margin-top: 40px;
 }
 
+.nav {
+    flex-direction: column;
+}
+
+li.nav-item {
+    padding: 9px 0;
+}
+
+li.nav-item:first-child {
+    padding-top: 0;
+}
+
+.nav-link {
+    padding: 0;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: transparent;
+    position: relative;
+}
+
+.nav-pills .nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: -24px;
+    top: 0;
+    width: 4px;
+    height: 24px;
+    background: #FE616B;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.nav-pills .nav-link.active .sideBar-btn .sideBar-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+}
+
+.nav-pills .nav-link.active .sideBar-btn .sideBar-img {
+    filter: invert(51%) sepia(65%) saturate(821%) hue-rotate(313deg) brightness(97%) contrast(118%);
+}
+
+.nav-pills .nav-link {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.32);
+    border-radius: 0;
+}
+
 /* Side Bar CSS */
 .sideBar {
     background: #FFFFFF;
@@ -48,7 +104,6 @@ body {
 .sideBar-btn {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
 }
 
 .sideBar-text {
@@ -63,10 +118,6 @@ body {
 /* End */
 
 /* Section dashboard CSS */
-/* #dashboard {
-    display: none;
-} */
-
 .statistical {
     margin-bottom: 32px;
 }
@@ -219,10 +270,6 @@ img.statistics-table__img {
 /* End */
 
 /* Section info CSS */
-/* #info {
-    display: none;
-} */
-
 .header-info {
     display: flex;
     justify-content: space-between;
@@ -571,10 +618,6 @@ img.about-details__img {
 /* End */
 
 /* Section setting CSS */
-/* #setting {
-    display: none;
-} */
-
 #setting > .row > .col  > .sideBar {
     min-height: calc(100vh - 22vh);
 }
@@ -664,10 +707,6 @@ img.rent-select__img {
 }
 
 /* Section withdrawal CSS */
-/* #withdrawal {
-    display: none;
-} */
-
 #withdrawal > .row > .col  > .sideBar {
     min-height: calc(100vh - 22vh);
 }
@@ -873,44 +912,30 @@ button.cards-btn:hover {
 }
 
 /* Section details CSS */
-/* #details {
-    display: none;
-} */
-
 input.history-input {
     max-width: 580px;
     flex: none;
 }
 
 /* Section liked CSS */
-/* #liked {
-    display: none;
-} */
-
 .liked-inner {
     background: #fff;
     padding: 32px 78px;
     border-radius: 0px 24px 24px 0px;
 }
 
-.nav {
-    border-bottom: 1px solid rgba(254, 97, 107, 0.16);
+.like-navs {
+    flex-direction: row;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(254, 97, 107, 0.12);
     display: inline-flex;
 }
 
-.nav-pills .nav-link.active {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.012em;
-    text-transform: capitalize;
-    color: rgba(101, 1, 7, 0.87);
-    background: transparent;
-    border-bottom: 1px solid #FE616B;
+.like-item:first-child > .like-link {
+    padding:  0 24px 0 0;
 }
 
-.nav-pills .nav-link {
+.like-link {
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
@@ -918,6 +943,18 @@ input.history-input {
     text-transform: capitalize;
     color: rgba(101, 1, 7, 0.32);
     border-radius: 0;
+    padding: 0 24px;
+}
+
+.nav-pills .like-link.active {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    text-transform: capitalize;
+    color: rgba(101, 1, 7, 0.87);
+    border-bottom: 1px solid #FE616B;
+    padding-bottom: 13px;
 }
 
 .hired-inner {
