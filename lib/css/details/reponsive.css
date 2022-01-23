@@ -82,7 +82,7 @@
     }
 
     .password {
-        min-height: 357px;
+        min-height: auto;
     }
 
     .navbar {
@@ -131,6 +131,12 @@
 
     .statistical-heading {
         font-size: 13px;
+    }
+}
+
+@media (min-width: 965px) and (max-width: 1215px) {
+    .password {
+        padding-bottom: 24.9%;
     }
 }
 

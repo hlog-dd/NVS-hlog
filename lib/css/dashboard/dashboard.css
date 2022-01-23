@@ -97,7 +97,7 @@ li.nav-item:first-child {
 .sideBar {
     background: #FFFFFF;
     border-radius: 24px 0px 0px 24px;
-    min-height: calc(100% - 4%);
+    min-height: calc(86vh - 36px);
     padding: 36px 0 0 24px;
 }
 
@@ -963,7 +963,7 @@ input.history-input {
     justify-content: space-between;
 }
 
-div#pills-tabContent {
+div#like-tabContent {
     margin-top: 20px;
 }
 

@@ -37,21 +37,21 @@
                         <nav class="navbar">
                             <ul class="navbar-list">
                                 <li class="navbar-item">
-                                    <a href="" class="navbar-link navbar-active">
+                                    <a href="./user.html" class="navbar-link ">
                                         <span>
                                             Trang chủ
                                         </span>
                                     </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="./rent.html" class="navbar-link">
+                                    <a href="./rent.html" class="navbar-link navbar-active">
                                         <span>
                                             Thuê người chơi
                                         </span>
                                     </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="" class="navbar-link">
+                                    <a href="./dashboard.html" class="navbar-link">
                                         <span>
                                             Đang theo dõi
                                         </span>
@@ -226,12 +226,12 @@
 
                             <ul class="subnav">
                                 <li class="subnav-item">
-                                    <a href="" class="subnav-link">
+                                    <button class="subnav-link" id="recharge">
                                         Nạp tiền
-                                    </a>
+                                    </button>
                                 </li>
                                 <li class="subnav-item">
-                                    <a href="" class="subnav-link">
+                                    <a href="./dashboard.html" class="subnav-link">
                                         Rút tiền
                                     </a>
                                 </li>
@@ -3098,6 +3098,184 @@
                             </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-recharge__money" id="md-recharge">
+        <div class="modal-recharge">
+            <div class="md-recharge">
+                <header class="md-recharge__header">
+                    <h3 class="md-recharge__heading">
+                    Nạp Tiền Vào 5me.onl
+                    </h3>
+
+                    <button class="md-recharge__close js-modal-close">
+                        <img src="./img/rent-user/modal-donate/close.svg" alt="" class="md-recharge__close-img">
+                    </button>
+                </header>
+
+                <div class="md-recharge__content">
+                    <ul class="recharge-list">
+                        <li class="recharge-item">
+                            <img src="./img/details/house.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Chuyển khoản qua ngân hàng
+                                </span>
+
+                                <span class="recharge-title">
+                                    Miễn phí. Hỗ trợ 8:30 - 22:00 hằng ngày (trừ chủ nhật và các ngày lễ)
+                                </span>
+                            </div>
+                        </li>
+                        <li class="recharge-item">
+                            <img src="./img/details/print.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Nạp tiền bằng thẻ cào Player Code
+                                </span>
+
+                                <span class="recharge-title">
+                                    Player code
+                                </span>
+                            </div>
+                        </li>
+                        <li class="recharge-item">
+                            <img src="./img/details/mobile.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Nạp tiền bằng thẻ cào điện thoại
+                                </span>
+
+                                <span class="recharge-title">
+                                    Mobile card
+                                </span>
+                            </div>
+                        </li>
+                        <li class="recharge-item">
+                            <img src="./img/details/card.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Thanh toán trực tiếp qua Internet Banking
+                                </span>
+
+                                <span class="recharge-title">
+                                    Phí 1.760đ + 3% giá trị nạp
+                                </span>
+                            </div>
+                        </li>
+                        <li class="recharge-item">
+                            <img src="./img/details/visa.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Thanh toán trực tiếp qua Visa / Master Card
+                                </span>
+
+                                <span class="recharge-title">
+                                    Phí 5.000đ + 7% giá trị nạp
+                                </span>
+                            </div>
+                        </li>
+                        <li class="recharge-item">
+                            <img src="./img/details/qr.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Thanh toán trực tiếp qua QR code
+                                </span>
+
+                                <span class="recharge-title">
+                                    Phí 3% giá trị nạp
+                                </span>
+                            </div>
+                        </li>
+                        <li class="recharge-item">
+                            <img src="./img/details/paypal.svg" alt="" class="recharge-img">
+
+                            <div class="recharge-content">
+                                <span class="recharge-heading">
+                                    Thanh toán qua Paypal
+                                </span>
+
+                                <span class="recharge-title">
+                                    Phí tùy vào đại lý
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="box-chat" id="box-chat">
+        <div class="box-chat__header">
+            <div class="box-chat__name">
+                <img src="./img/rent-user/chat-box/user-1.png" alt="" class="box-chat__img">
+                
+                <div class="box-chat__heading">
+                    Nguyễn Trần Đình Thiện
+                </div>
+            </div>
+
+            <button class="box-chat__close js-modal-close">
+                <img src="./img/rent-user/chat-box/close.svg" alt="" class="box-chat__close-img">
+            </button>
+        </div>
+
+        <div class="box-chat__body">
+            <ul class="box-chat__list">
+                <li class="box-chat__item">
+                    <div class="box-chat__wrap">
+                        <img src="./img/rent-user/chat-box/user-2.png" alt="" class="box-chat__img">
+
+                        <div class="box-chat__content">
+                            <p class="box-chat__text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+
+                            <span>22/10/2020 | 08:32</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="box-chat__item">
+                    <div class="box-chat__wrap">    
+                        <div class="box-chat__content active-me">
+                            <p class="box-chat__text white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            </p>
+
+                            <span class="white opacity">25/12/2020 | 10:55</span>
+                        </div>
+
+                        <img src="./img/rent-user/chat-box/user-3.png" alt="" class="box-chat__img">
+
+                    </div>
+                </li>
+            </ul>
+
+            <div class="box-chat__bottom">
+                <div class="box-chat__bottom-left">
+                    <img src="./img/rent-user/chat-box/user-3.png" alt="" class="box-chat__user-img">
+
+                    <textarea class="box-chat__input" name="" id="" placeholder="Nhập tin nhắn"></textarea>
+                </div>
+
+                <div class="box-chat__bottom-right">
+                    <button class="box-chat__controls">
+                        <img src="./img/rent-user/chat-box/bonus.svg" class="box-chat__controls-img" alt="">
+                    </button>
+
+                    <button class="box-chat__controls">
+                        <img src="./img/rent-user/chat-box/send.svg" class="box-chat__controls-img" alt="">
+                    </button>
                 </div>
             </div>
         </div>

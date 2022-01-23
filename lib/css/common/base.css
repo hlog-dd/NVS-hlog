@@ -176,6 +176,101 @@ label {
     padding: 0 12px;
 }
 
+/* Modal recharge */
+.modal-recharge__money {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+    padding: 0 12px;
+    background: rgb(0 0 0 / 44%);
+    animation: modalFaceIn linear .4s;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.modal-recharge {
+    background-color: #fff;
+    max-width: 628px;
+    width: 100%;
+    border-radius: 24px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.md-recharge__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    padding: 24px 24px 16px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.md-recharge__heading {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.024em;
+    color: rgba(101, 1, 7, 0.87);
+    margin: 0;
+}
+
+.recharge-list {
+    padding: 0 24px 40px;
+}
+
+.recharge-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.recharge-item:last-child {
+    border: none;
+}
+
+.recharge-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.recharge-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding: 16px 0 16px;
+}
+
+.recharge-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.87);
+    margin-bottom: 3px;
+}
+
+.recharge-title {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.012em;
+    color: rgba(101, 1, 7, 0.6);
+}
+
+.rent:hover, .donate:hover, .message:hover {
+    color: #fff;
+    box-shadow: 0px 6px 24px rgb(254 97 107 / 16%);
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    transition: all .5s;
+}
+
+
 /* Zoom image CSS */
 .img-popup {
     position: fixed;

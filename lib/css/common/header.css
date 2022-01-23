@@ -308,7 +308,7 @@
     position: absolute;
     right: 8px;
     top: 80px;
-    z-index: 1;
+    z-index: 10;
     background: #fff;
     border-radius: 16px;
     margin: 0;
@@ -494,6 +494,8 @@
     top: 50%;
     left: 4%;
     transform: translate(-6%, -50%);
+    width: 24px;
+    height: 24px;
 }
 
 .box-chat__bottom-right {
