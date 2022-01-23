@@ -1,0 +1,375 @@
+@media (max-width: 1305px) {
+    li.game-item {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    img.game-img {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1070px) {
+    .statistical-heading {
+        font-size: 12px;
+    }
+
+    .statistical-price {
+        font-size: 26px;
+    }
+
+    .info-inner {
+        padding: 32px 36px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .statistical-inner {
+        padding: 16px 18px;
+    }
+}
+
+@media (max-width: 965px) {
+    .custom-col-3-big {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .custom-col-9-big {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+    .sideBar {
+        border-radius: 0;
+        min-height: 0;
+        padding: 0px 0 0px 16px;
+        margin-bottom: 16px;
+        overflow: hidden;
+    }
+
+    li.nav-item:first-child {
+        padding: 0;
+    }
+
+    li.nav-item {
+        padding: 0;
+        margin-right: 24px;
+    }
+
+    .nav {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .nav-pills .nav-link.active::after {
+        display: none;
+    }
+
+    .nav-pills .nav-link.active {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        color: #FE616B;
+        background: #fff;
+        padding: 16px 0 16px;
+        border-bottom: 2px solid;
+        border-radius: 0;
+    }
+
+    .nav-pills .nav-link.active .sideBar-btn .sideBar-text {
+        font-weight: 600;
+    }
+
+    .sideBar-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        color: rgba(101, 1, 7, 0.32);
+    }
+}
+
+@media (max-width: 725px) {
+    .sideBar-img {
+        display: none;
+    }
+
+    .custom-col-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .custom-col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .statistical-inner {
+        max-width: 100%;
+        margin-bottom: 12px;
+    }
+
+    h2.statistics-heading {
+        display: flex;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: rgba(101, 1, 7, 0.87);
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+    .places {
+        height: 97px;
+    }
+
+    .statistics-title__mobile {
+        display: block;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: rgba(101, 1, 7, 0.6);
+    }
+
+    span.statistics-title {
+        display: none;
+    }
+
+    .statistics-time {
+        justify-content: center;
+    }
+
+    .sideBar-text {
+        margin: 0;
+    }
+
+    .nav-pills .nav-link.active .sideBar-btn .sideBar-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 690px) {
+    li.game-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    ul.about-image__list {
+        flex-wrap: wrap;
+    }
+
+    img.about-image__img {
+        max-width: 100%;
+    }
+
+    li.about-image__item {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+
+    li.about-image__item:nth-child(2) > img.about-image__img {
+        margin-bottom: 8px;
+    }
+
+    .about-image__label-block {
+        height: 96%;
+    }
+
+    .header-info {
+        background-color: #fff;
+        margin: 0 -12px 16px;
+        padding: 12px 0 12px 16px;
+    }
+}
+
+@media (max-width: 585px) {
+    h2.statistics-heading {
+        font-size: 18px;
+    }
+
+    .statistics-title__mobile {
+        font-size: 16px;
+    }
+
+    .statistical {
+        margin-bottom: 16px;
+    }
+
+    .user-img {
+        width: 60.34px;
+        height: 60.34px;
+    }
+
+    .header-info__content {
+        margin-left: 14px;
+    }
+
+    .header-info__name {
+        font-size: 18px;
+    }
+
+    .header-info__content span {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    img.header-info__img {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 490px) {
+    body {
+        min-height: 100%;
+    }
+
+    .content {
+        margin-top: 74px;
+    }
+
+    .statistical-inner {
+        padding: 10px 18px;
+    }
+
+    .statistical-details {
+        padding: 15px;
+    }
+
+    .places {
+        height: 84px;
+    }
+
+    .nav-pills .nav-link.active {
+        padding: 12px 0;
+    }
+
+    span.places-number {
+        font-size: 22px;
+    }
+
+    .header-info__name {
+        display: none;
+    }
+
+    h3.header-info__name-mobi {
+        display: block;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        color: #650107;
+    }
+}
+
+@media (max-width: 430px) {
+    .content {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 408px) {
+    .statistical-price {
+        font-size: 18px;
+    }
+
+    span.places-text {
+        font-size: 12px;
+    }
+
+    span.places-number {
+        font-size: 20px;
+    }
+
+    .user-img {
+        width: 48.34px;
+        height: 48.34px;
+    }
+
+    .header-info__content {
+        margin-left: 10px;
+    }
+
+    h3.header-info__name-mobi {
+        margin-bottom: 4px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-pills .nav-link.active .sideBar-btn .sideBar-text {
+        font-size: 14px;
+    }
+
+    .statistical-heading {
+        margin: 0;
+    }
+
+    .places {
+        height: 77px;
+    }
+
+    h2.statistics-heading {
+        font-size: 16px;
+        margin-bottom: 18px;
+    }
+
+    .statistics-title__mobile {
+        font-size: 14px;
+    }
+
+    .statistics-datetime {
+        padding: 6px 40px;
+    }
+
+    .btn-month {
+        height: 36px;
+    }
+
+    .statistical-details {
+        padding: 15px;
+        margin: 0 -12px;
+        border-radius: 0;
+    }
+
+    h3.header-info__name-mobi {
+        font-size: 14px;
+    }
+
+    .header-info__content span {
+        font-size: 12px;
+    }
+
+    img.header-info__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container-c {
+        font-size: 14px;
+    }
+    
+    .user-top__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .user-top__label {
+        transform: translate(15%, 30%);
+    }
+}

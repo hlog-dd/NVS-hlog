@@ -528,7 +528,7 @@
         top: 0;
         right: -45%;
         bottom: 0;
-        z-index: 1;
+        z-index: 10;
         background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
         max-width: 420px;
         width: 100%;
