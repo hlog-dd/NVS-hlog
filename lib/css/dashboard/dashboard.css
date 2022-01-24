@@ -367,13 +367,16 @@ h3.header-info__name-mobi {
     display: block;
 }
 
+.form-inner {
+    margin-bottom: 16px;
+}
+
 .form-info__input {
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 12px 14px 12px 16px;
-    margin-bottom: 16px;
     width: 100%;
     height: 48px;
 }
@@ -636,6 +639,7 @@ img.about-details__img {
 .rent-max {
     max-width: 388px;
     width: 100%;
+    margin-bottom: 16px;
 }
 
 .rent-max__heading {
@@ -653,6 +657,16 @@ ul.time-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+li.time-item {
+    margin: 0 12px 16px 0;
+}
+
+li.time-item:last-child {
+    margin-right: 0;
 }
 
 button.time-btn {
@@ -791,6 +805,11 @@ img.rent-select__img {
     transition: fadeIn .5s linear;
 }
 
+.receiver-block {
+    display: flex;
+    align-items: center;
+}
+
 .withdrawal-wrap > .withdrawal-inner > .form-info__name {
     font-size: 18px;
     margin-bottom: 16px;
@@ -822,6 +841,7 @@ ul.transfer-list {
 
 li.transfer-item {
     flex: 1;
+    margin-bottom: 16px;
 }
 
 ul.transfer-list > li.transfer-item > .form-info__input::placeholder {
@@ -860,6 +880,7 @@ ul.cards-price__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 li.cards-price__item {
@@ -870,6 +891,11 @@ li.cards-price__item {
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 8px;
+    margin: 0 12px 12px 0;
+}
+
+li.cards-price__item:last-child {
+    margin-right: 0;
 }
 
 button.cards-price__btn {
@@ -909,6 +935,12 @@ input.receiver-input {
 button.cards-btn {
     width: 100%;
     height: 100%;
+}
+
+img.cards-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 button.cards-btn:hover {
@@ -984,6 +1016,10 @@ li.hired-item {
     color: rgba(101, 1, 7, 0.87);
     padding: 12px 0;
     border-bottom: 1px solid #f2f2f2;
+}
+
+.hired-together__mobi {
+    display: none;
 }
 
 li.hired-item:last-child {

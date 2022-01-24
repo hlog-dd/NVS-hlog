@@ -10,6 +10,16 @@
     }
 }
 
+@media (max-width: 1160px) {
+    ul.time-list, ul.cards-price__list {
+        justify-content: normal;
+    }
+
+    .setting-inner {
+        padding: 32px;
+    }
+}
+
 @media (max-width: 1070px) {
     .statistical-heading {
         font-size: 12px;
@@ -22,11 +32,54 @@
     .info-inner {
         padding: 32px 36px;
     }
+
+    img.rent-select__img {
+        margin: 0 3px 0 6px;
+    }
+
+    .hired-together {
+        display: none;
+    }
+
+    .hired-together__mobi {
+        display: block;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        color: rgba(101, 1, 7, 0.38);
+    }
+
+    .hired-info {
+        display: flex;
+    }
+
+    .tutorial-wrap {
+        padding: 32px;
+    }
 }
 
 @media (max-width: 1000px) {
     .statistical-inner {
         padding: 16px 18px;
+    }
+
+    .liked-inner {
+        padding: 32px 42px;
+        border-radius: 24px;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .nav-pills .like-link.active, .like-link {
+        font-size: 14px;
+    }
+
+    .like-item:first-child > .like-link {
+        padding-right: 0;
     }
 }
 
@@ -42,6 +95,9 @@
         max-width: 100%;
     }
 
+    .withdrawal-inner {
+        padding: 32px;
+    }
 
     .sideBar {
         border-radius: 0;
@@ -118,6 +174,10 @@
         margin-bottom: 12px;
     }
 
+    .rent-select__item:last-child {
+        display: none;
+    }
+
     h2.statistics-heading {
         display: flex;
         font-style: normal;
@@ -177,7 +237,11 @@
         max-width: 100%;
     }
 
-    li.about-image__item {
+    li.cards-price__item {
+        margin: 0 0 12px;
+    }    
+
+    li.about-image__item, li.cards-price__item {
         flex: 0 0 33.3333%;
         max-width: 33.3333%;
     }
@@ -194,6 +258,47 @@
         background-color: #fff;
         margin: 0 -12px 16px;
         padding: 12px 0 12px 16px;
+    }
+
+    .info-inner {
+        padding: 24px 16px;
+        margin-bottom: 24px;
+    }
+
+    .game-item:not(:first-child) > .game-link > .game-info > .game-name {
+        margin-bottom: 24px;
+    }
+
+    .save-btn {
+        width: 100%;
+    }
+    
+    .mt-16 {
+        margin: 0;
+    }
+
+    .liked-inner {
+        padding: 16px;
+        overflow: hidden;
+    }
+
+    .tutorial-wrap {
+        padding: 16px;
+        margin: 0 -12px;
+    } 
+
+    h2.tutorial-heading {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    h3.tutorial-block__name {
+        margin-bottom: 12px;
+    }
+
+    .tutorial-block__text {
+        font-size: 14px;
+        margin-bottom: 20px;
     }
 }
 
@@ -228,9 +333,47 @@
         margin: 0;
     }
 
+    .withdrawal-inner {
+        padding: 16px;
+        margin: 0 -12px;
+    }
+
     img.header-info__img {
         width: 48px;
         height: 48px;
+    }
+
+    .game-item:not(:first-child) > .game-link > .game-info > .game-name {
+        margin-bottom: 16px;
+    }
+
+    .game-item:first-child > .game-link > .game-info > .game-name {
+        margin-bottom: 16px;
+    }
+
+    .rent-select__item:nth-child(2) {
+        display: none;
+    }
+
+    .setting-inner {
+        padding: 16px;
+    }
+
+    .cards-item:last-child {
+        display: none;
+    }
+
+    li.cards-item {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+        margin: 0;
+        padding: 0 8px;
+    }
+
+    input.receiver-input {
+        max-width: 258px;
+        padding-right: 0;
+        font-size: 14px;
     }
 }
 
@@ -267,6 +410,15 @@
         display: none;
     }
 
+    ul.transfer-list {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    li.transfer-item:first-child {
+        margin:0 0 16px 0;
+    }
+
     h3.header-info__name-mobi {
         display: block;
         font-style: normal;
@@ -276,11 +428,95 @@
         letter-spacing: 0.012em;
         color: #650107;
     }
+
+    .setting-inner {
+        margin: 0 -12px;
+    }
+
+    [type="radio"]:checked + label, [type="radio"]:not(:checked) + label {
+        font-size: 14px;
+        padding-left: 30px;
+    }
+
+    input.receiver-input {
+        flex: 1;
+        height: 36px;
+    }
 }
 
 @media (max-width: 430px) {
     .content {
         margin-top: 65px;
+    }
+
+    .content-info {
+        margin: 0 -12px;
+    }
+
+    .info-inner {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .form-info__input {
+        height: 36px;
+    }
+
+    .form-info__input::placeholder {
+        font-size: 14px;
+    }
+
+    .nation {
+        padding: 6px 0 6px 14px;
+        font-size: 14px;
+        height: 36px;
+    }
+
+    .container-c {
+        font-size: 14px;
+    }
+
+    .about-image__label-block {
+        height: 94%;
+    }
+
+    button.time-btn {
+        font-size: 14px;
+        max-width: 76px;
+    }
+
+    .time-item:nth-child(4) {
+        margin-right: 0;
+    }
+
+    li.time-item {
+        margin: 0 12px 12px 0;
+    }
+
+    li.hired-item {
+        font-size: 14px;
+    }
+
+    .hired-together__mobi {
+        font-size: 12px;
+    }
+
+    div#like-tabContent {
+        margin: 0;
+    }
+
+    h2.tutorial-heading {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    h3.tutorial-block__name {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    
+    .tutorial-block__text {
+        margin-bottom: 18px;
     }
 }
 
@@ -322,6 +558,10 @@
 
     .places {
         height: 77px;
+    }
+
+    span.game-name {
+        font-size: 14px;
     }
 
     h2.statistics-heading {
@@ -371,5 +611,11 @@
 
     .user-top__label {
         transform: translate(15%, 30%);
+    }
+
+    .pagination-item:nth-child(3), .pagination-list span,
+    .pagination-item:nth-child(5), .hired-item:nth-child(5),
+    .hired-item:nth-child(6), .hired-item:nth-child(7), .hired-item:nth-child(8) {
+        display: none;
     }
 }
