@@ -1081,6 +1081,146 @@ h3.tutorial-block__name {
     margin-bottom: 32px;
 }
 
+/* Setting Info */
+.process-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.process-block {
+    display: flex;
+    align-items: center;
+}
+
+.process-number {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: rgba(101, 1, 7, 0.2);
+    background: rgba(101, 1, 7, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.process-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.024em;
+    color: rgba(101, 1, 7, 0.32);
+    margin-left: 8px;
+    display: block;
+}
+
+span.process-line {
+    width: 100%;
+    max-width: 96px;
+    height: 2px;
+    background: rgba(101, 1, 7, 0.08);
+    margin: 0 12px;
+}
+
+.setting-info__wrap {
+    background: #fff;
+    padding: 32px 78px;
+    border-radius: 0 24px 24px 0;
+}
+
+.form-sex {
+    display: flex;
+    align-items: center;
+}
+
+label.form-sex__label {
+    text-align: center;
+    line-height: 48px;
+    width: 100%;
+    height: 48px;
+    margin: 0;
+    color: rgba(101, 1, 7, 0.32);
+    cursor: pointer;
+}
+
+.check-sex {
+    background: rgba(254, 97, 107, 0.08);
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    letter-spacing: 0.012em;
+    color: #FE616B;
+}
+
+.active-process__number {
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    color: #fff;
+}
+
+.active-process__text {
+    color: #650107 !important;
+}
+
+.save-btn:hover {
+    color: #fff;
+}
+
+.form-info__credit {
+    background: url('../../../img/dashboard/setting-info/cmnd-1.png') no-repeat center;
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+
+}
+
+.form-info__credit-after {
+    background: url('../../../img/dashboard/setting-info/cmnd-2.png') no-repeat center;
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+
+}
+
+.process-block:nth-child()
+
+#credit {
+    display: none;
+}
+
+.form-info__credit-inner {
+    position: relative;
+    border-radius: 8px;
+}
+
+label.form-info__credit-lb {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+}
+
+img.form-info__camera-img {
+    width: 55px;
+    height: 55px;
+}
+
+span.form-info__camera-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.012em;
+    color: rgba(255, 255, 255, 0.87);
+}
+
 /* Footer CSS */
 .footer {
     background: #FFFFFF;

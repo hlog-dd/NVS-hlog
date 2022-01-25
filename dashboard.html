@@ -462,6 +462,18 @@
                                             </button>
                                         </a>
                                     </li>
+
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-setting__info" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                            <button class="sideBar-btn">
+                                                <img src="./img/dashboard/sideBar/book.svg" alt="" class="sideBar-img">
+        
+                                                <span class="sideBar-text">
+                                                    Cài đặt thông tin
+                                                </span>
+                                            </button>
+                                        </a>
+                                    </li>
     
                                     <li class="nav-item" role="presentation">
                                         <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-setting" role="tab" aria-controls="pills-profile" aria-selected="false">
@@ -2007,6 +2019,164 @@
                                     </section>
                                 </div>
 
+                                <div class="tab-pane fade" id="pills-setting__info" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <section class="setting-info">
+                                        <div class="process-bar">
+                                            <div class="process-block">
+                                                <div class="process-number active-process__number">
+                                                    1
+                                                </div>
+
+                                                <span class="process-text active-process__text">
+                                                    Thông tin cá nhân
+                                                </span>
+                                            </div>
+
+                                            <span class="process-line">
+
+                                            </span>
+
+                                            <div class="process-block">
+                                                <div class="process-number">
+                                                    2
+                                                </div>
+
+                                                <span class="process-text">
+                                                    Giấy tờ tùy thân
+                                                </span>
+                                            </div>
+
+                                            <span class="process-line">
+
+                                            </span>
+
+                                            <div class="process-block">
+                                                <div class="process-number">
+                                                    3
+                                                </div>
+
+                                                <span class="process-text">
+                                                    Chụp selfie
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="setting-info__wrap" id="infomation">
+                                            <div class="row">
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Họ và Tên
+                                                        </label>
+    
+                                                        <input type="text" placeholder="Nguyễn Đình Trần Thiện" class="form-info__input">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Ngày Sinh
+                                                        </label>
+    
+                                                        <input type="date" class="form-info__input">
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Giới tính
+                                                        </label>
+    
+                                                        <div class="form-sex">
+                                                            <label for="form-sex__select" class="form-sex__label">
+                                                                Nam
+                                                            </label> 
+                                                            
+                                                            <label for="form-sex__select" class="form-sex__label">
+                                                                Nữ
+                                                            </label>
+
+                                                            <input type="checkbox" hidden name="sex" id="form-sex__select">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <label for="" class="form-info__name">
+                                                        Email
+                                                    </label>
+
+                                                    <input type="text" placeholder="tranthiennguyen12@gmail.com" class="form-info__input">
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                    <label for="" class="form-info__name">
+                                                        Số điện thoại
+                                                    </label>
+
+                                                    <input type="text" placeholder="0123 456 7890" class="form-info__input">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="setting-info__wrap" id="credit">
+                                            <div class="row">
+                                                <div class="col col-xl-6">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Mặt trước
+                                                        </label>
+
+                                                        <div class="form-info__credit-inner">
+                                                            <div id="imagePreview" alt="" class="form-info__credit">
+                        
+                                                            </div>
+                                                            
+                                                            <label for="imageUpload" class="form-info__credit-lb">
+                                                                <img src="./img/dashboard/setting-info/camera.png" alt="" class="form-info__camera-img">
+                                                                <span class="form-info__camera-text">
+                                                                    Chụp ảnh
+                                                                </span>
+
+                                                                <input class="user-top__btn" type="file" id="imageUpload" hidden="" accept=".png, .jpg, .jpeg">
+                                                            </label>
+                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col col-xl-6">
+                                                      <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Mặt Sau
+                                                        </label>
+
+                                                        <div class="form-info__credit-inner">
+                                                            <div id="imagePreview" alt="" class="form-info__credit-after">
+                        
+                                                            </div>
+                                                            
+                                                            <label for="imageUpload" class="form-info__credit-lb">
+                                                                <input class="user-top__btn" type="file" id="imageUpload" hidden="" accept=".png, .jpg, .jpeg">
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+
+                                    <div class="footer"> 
+                                        <div class="container">
+                                            <div class="save">
+                                                <button class="save-btn">
+                                                    Tiếp theo: Giấy tờ tùy thân
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="tab-pane fade" id="pills-tutorial" role="tabpanel" aria-labelledby="pills-profile-tab">
                                     <section id="tutorial">
                                         <div class="tutorial-wrap">
@@ -2243,7 +2413,15 @@
                 $('.table__tbody-text', this).toggleClass('messup');
                 $('img.arrow-down', this).toggleClass('rotate');
                 
-			})
+			});
+
+            $('.save-btn').click(function() {
+                $('#infomation').hide();
+                $('#credit').show();
+
+                $('.process-block:nth-child(2) > .process-number').addClass('active-process__number');
+                $('.process-block:nth-child(2) > .process-text').addClass('active-process__text');
+            });
         });
     </script>
 
