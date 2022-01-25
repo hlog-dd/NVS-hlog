@@ -1184,10 +1184,29 @@ label.form-sex__label {
 
 }
 
-.process-block:nth-child()
-
-#credit {
+div#credit, .save-btn__comeback {
     display: none;
+}
+
+button.save-btn__comeback {
+    box-shadow: 0px 6px 24px rgb(254 97 107 / 16%);
+    border-radius: 8px;
+    padding: 10px 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.012em;
+    background: #fff;
+    color: #fe6168;
+    border: 1px solid;
+}
+
+.save-btn__comeback > .save-btn__img {
+    margin: 0 12px 0 0;
+}
+
+.process-block:nth-child(2) > .process-number {
+    background: #000;
 }
 
 .form-info__credit-inner {
@@ -1219,6 +1238,14 @@ span.form-info__camera-text {
     text-align: center;
     letter-spacing: 0.012em;
     color: rgba(255, 255, 255, 0.87);
+}
+
+img.save-btn__img {
+    margin-left: 10px;
+    position: relative;
+    bottom: 1.2px;
+    width: 7px;
+    height: 12px;
 }
 
 /* Footer CSS */

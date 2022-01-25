@@ -18,6 +18,10 @@
     .setting-inner {
         padding: 32px;
     }
+
+    #credit {
+        padding: 32px;
+    }
 }
 
 @media (max-width: 1070px) {
@@ -57,6 +61,14 @@
 
     .tutorial-wrap {
         padding: 32px;
+    }
+
+    .setting-info__wrap {
+        padding: 32px;
+    }
+
+    span.process-text {
+        font-size: 14px;
     }
 }
 
@@ -152,6 +164,10 @@
         letter-spacing: 0.012em;
         color: rgba(101, 1, 7, 0.32);
     }
+
+    #credit {
+        padding: 16px;
+    } 
 }
 
 @media (max-width: 725px) {
@@ -221,6 +237,18 @@
     .nav-pills .nav-link.active .sideBar-btn .sideBar-text {
         font-size: 14px;
     }
+
+    .process-bar {
+        display: block;
+    }
+
+    span.process-line {
+        display: none;
+    }
+
+    .process-block {
+        margin-bottom: 12px;
+    }
 }
 
 @media (max-width: 690px) {
@@ -269,8 +297,12 @@
         margin-bottom: 24px;
     }
 
-    .save-btn {
+    .save-btn, .save-btn__comeback {
         width: 100%;
+    }
+
+    .save-btn__comeback {
+        margin-bottom: 12px;
     }
     
     .mt-16 {
@@ -300,6 +332,27 @@
         font-size: 14px;
         margin-bottom: 20px;
     }
+
+    .setting-info__wrap {
+        padding: 16px;
+        margin: 0 -12px;
+        border-radius: 0;
+    }
+
+    .process-bar {
+        display: block;
+    }
+
+    .process-number {
+        width: 24px;
+        height: 24px;
+        font-size: 13px;
+    }
+
+    label.form-sex__label {
+        height: 36px;
+        line-height: 36px;
+    }
 }
 
 @media (max-width: 585px) {
@@ -309,6 +362,10 @@
 
     .statistics-title__mobile {
         font-size: 16px;
+    }
+
+    #credit {
+        margin-bottom: 100px;
     }
 
     .statistical {
@@ -375,6 +432,16 @@
         padding-right: 0;
         font-size: 14px;
     }
+
+    .form-info__credit-after, .form-info__credit {
+        height: 206px;
+    }
+
+    .table__tbody > tr:nth-child(6), .table__tbody > tr:nth-child(7),
+    .table__tbody > tr:nth-child(8), .table__tbody > tr:nth-child(9) {
+        display: none;
+    }
+    
 }
 
 @media (max-width: 490px) {
@@ -491,6 +558,10 @@
 
     li.time-item {
         margin: 0 12px 12px 0;
+    }
+
+    .process-bar {
+        margin-bottom: 16px;
     }
 
     li.hired-item {
@@ -617,5 +688,9 @@
     .pagination-item:nth-child(5), .hired-item:nth-child(5),
     .hired-item:nth-child(6), .hired-item:nth-child(7), .hired-item:nth-child(8) {
         display: none;
+    }
+    
+    .process-bar {
+        margin-bottom: 16px;
     }
 }

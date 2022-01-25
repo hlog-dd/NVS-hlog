@@ -2063,7 +2063,7 @@
 
                                         <div class="setting-info__wrap" id="infomation">
                                             <div class="row">
-                                                <div class="col col-xl-6">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-inner">
                                                         <label for="" class="form-info__name">
                                                             Họ và Tên
@@ -2072,7 +2072,7 @@
                                                         <input type="text" placeholder="Nguyễn Đình Trần Thiện" class="form-info__input">
                                                     </div>
                                                 </div>
-                                                <div class="col col-xl-6">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-inner">
                                                         <label for="" class="form-info__name">
                                                             Ngày Sinh
@@ -2081,7 +2081,7 @@
                                                         <input type="date" class="form-info__input">
                                                     </div>
                                                 </div>
-                                                <div class="col col-xl-6">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-inner">
                                                         <label for="" class="form-info__name">
                                                             Giới tính
@@ -2100,29 +2100,33 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col col-xl-6">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
 
                                                 </div>
-                                                <div class="col col-xl-6">
-                                                    <label for="" class="form-info__name">
-                                                        Email
-                                                    </label>
-
-                                                    <input type="text" placeholder="tranthiennguyen12@gmail.com" class="form-info__input">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Email
+                                                        </label>
+    
+                                                        <input type="text" placeholder="tranthiennguyen12@gmail.com" class="form-info__input">
+                                                    </div>
                                                 </div>
-                                                <div class="col col-xl-6">
-                                                    <label for="" class="form-info__name">
-                                                        Số điện thoại
-                                                    </label>
-
-                                                    <input type="text" placeholder="0123 456 7890" class="form-info__input">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                                                    <div class="form-inner">
+                                                        <label for="" class="form-info__name">
+                                                            Số điện thoại
+                                                        </label>
+    
+                                                        <input type="text" placeholder="0123 456 7890" class="form-info__input">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div class="setting-info__wrap" id="credit">
                                             <div class="row">
-                                                <div class="col col-xl-6">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                     <div class="form-inner">
                                                         <label for="" class="form-info__name">
                                                             Mặt trước
@@ -2145,7 +2149,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col col-xl-6">
+                                                <div class="col col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                                       <div class="form-inner">
                                                         <label for="" class="form-info__name">
                                                             Mặt Sau
@@ -2169,9 +2173,18 @@
                                     <div class="footer"> 
                                         <div class="container">
                                             <div class="save">
+                                                <button class="save-btn__comeback">
+                                                    <img src="./img/dashboard/setting-info/arrow-left.svg" alt="" class="save-btn__img">
+
+                                                    Quay về: Thông tin cá nhân
+                                                </button>
+
                                                 <button class="save-btn">
                                                     Tiếp theo: Giấy tờ tùy thân
+
+                                                    <img src="./img/dashboard/setting-info/arrow-right.svg" alt="" class="save-btn__img">
                                                 </button>
+
                                             </div>
                                         </div>
                                     </div>
@@ -2418,9 +2431,23 @@
             $('.save-btn').click(function() {
                 $('#infomation').hide();
                 $('#credit').show();
+                $('.save-btn__comeback').show();
 
-                $('.process-block:nth-child(2) > .process-number').addClass('active-process__number');
-                $('.process-block:nth-child(2) > .process-text').addClass('active-process__text');
+                $('.process-number').eq(1).addClass('active-process__number');
+                $('.process-text').eq(1).addClass('active-process__text');
+
+                $('.save-btn').html('<span>Tiếp theo: Chụp selfie</span> <img src="./img/dashboard/setting-info/arrow-right.svg" alt="" class="save-btn__img">');
+            });
+
+            $('.save-btn__comeback').click(function() {
+                $('#infomation').show();
+                $('#credit').hide();
+                
+                $('.process-number').eq(1).removeClass('active-process__number');
+                $('.process-text').eq(1).removeClass('active-process__text');
+                $('.save-btn').html('<span>Tiếp theo: Giấy tờ tùy thân</span> <img src="./img/dashboard/setting-info/arrow-right.svg" alt="" class="save-btn__img">');
+                
+                $('.save-btn__comeback').css('display', 'none');
             });
         });
     </script>
