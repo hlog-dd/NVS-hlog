@@ -2179,7 +2179,7 @@
                                                     Quay về: Thông tin cá nhân
                                                 </button>
 
-                                                <button class="save-btn">
+                                                <button class="save-btn save-change">
                                                     Tiếp theo: Giấy tờ tùy thân
 
                                                     <img src="./img/dashboard/setting-info/arrow-right.svg" alt="" class="save-btn__img">
@@ -2428,15 +2428,22 @@
                 
 			});
 
-            $('.save-btn').click(function() {
+            $('.save-change').click(function() {
+                // Ẩn trang điền thông tin
                 $('#infomation').hide();
+
+                // trang cmnd show lên
                 $('#credit').show();
+
+                // btn trở về show
                 $('.save-btn__comeback').show();
 
+                // Tạo màu cho số 2 và text
                 $('.process-number').eq(1).addClass('active-process__number');
                 $('.process-text').eq(1).addClass('active-process__text');
 
-                $('.save-btn').html('<span>Tiếp theo: Chụp selfie</span> <img src="./img/dashboard/setting-info/arrow-right.svg" alt="" class="save-btn__img">');
+                // Đổi html của button
+                $(this).html('<span>Tiếp theo: Chụp selfie</span> <img src="./img/dashboard/setting-info/arrow-right.svg" alt="" class="save-btn__img">');
             });
 
             $('.save-btn__comeback').click(function() {

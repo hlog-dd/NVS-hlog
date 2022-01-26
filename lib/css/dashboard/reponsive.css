@@ -10,6 +10,12 @@
     }
 }
 
+@media (max-width: 1289px) {
+    li.cards-price__item {
+        margin: 0 12px 12px 0;
+    }
+}
+
 @media (max-width: 1160px) {
     ul.time-list, ul.cards-price__list {
         justify-content: normal;

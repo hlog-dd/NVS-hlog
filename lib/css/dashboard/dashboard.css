@@ -891,7 +891,6 @@ li.cards-price__item {
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 8px;
-    margin: 0 12px 12px 0;
 }
 
 li.cards-price__item:last-child {
