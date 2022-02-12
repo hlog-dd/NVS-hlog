@@ -560,22 +560,34 @@
                                                     </span>
                 
                                                     <div class="statistics-btn">
-                                                        <button class="statistics-datetime">
-                                                            <span class="statistics-text">
-                                                                Ngày
-                                                            </span>
-                                                        </button>
-                
-                                                        <button class="statistics-datetime btn-month">
-                                                            <span class="statistics-text">
-                                                                Tháng
-                                                            </span>
-                                                        </button>
+                                                        <ul class="nav nav-list nav-pills" id="pills-tab" role="tablist">
+                                                            <li class="nav-item__time">
+                                                              <a class="nav-link__time statistics-datetime active" id="pills-home-tab" data-toggle="pill" href="#pills-statistics" role="tab" aria-controls="pills-home" aria-selected="true">
+                                                                  <span class="statistics-text">
+                                                                    Ngày
+                                                                  </span>
+                                                              </a>
+                                                            </li>
+                                                            <li class="nav-item__time">
+                                                              <a class="nav-link__time statistics-datetime btn-month" id="pills-profile-tab" data-toggle="pill" href="#pills-chart" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                                                  <span class="statistics-text">
+                                                                    Tháng
+                                                                  </span>
+                                                              </a>
+                                                            </li>
+                                                          </ul>
                                                     </div>
                                                 </div>
                 
                                                 <div class="statistics-table">
-                                                    <img src="./img/dashboard/dashboard/table.png" alt="" class="statistics-table__img">
+                                                    <div class="tab-content" id="pills-tabContent">
+                                                        <div class="tab-pane fade show active" id="pills-statistics" role="tabpanel" aria-labelledby="pills-home-tab">
+                                                            <img src="./img/dashboard/dashboard/table.png" alt="" class="statistics-table__img">
+                                                        </div>
+                                                        <div class="tab-pane fade" id="pills-chart" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                                            <img src="./img/dashboard/dashboard/table-month.png" alt="" class="statistics-table__img">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -722,7 +734,7 @@
             
                                                             <ul class="game-list">
                                                                 <li class="game-item">
-                                                                    <a href="" class="game-link">
+                                                                    <a href="javascript:;" class="game-link">
                                                                         <div class="game-info">
                                                                             <img src="./img/dashboard/info/g-1.png" alt="" class="game-img">
             
@@ -734,7 +746,7 @@
                                                                                 <div class="form-info__url">
                                                                                     <label class="container-c">
                                                                                         <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
+                                                                                        <span class="checkmark bdr-0"></span>
                                                                                     </label>
                                                                                 </div>
                                                                             </div>
@@ -742,7 +754,7 @@
                                                                     </a>
                                                                 </li>
                                                                 <li class="game-item">
-                                                                    <a href="" class="game-link">
+                                                                    <a href="javascript:;" class="game-link">
                                                                         <div class="game-info">
                                                                             <img src="./img/dashboard/info/g-2.png" alt="" class="game-img">
             
@@ -754,7 +766,7 @@
                                                                                 <div class="form-info__url">
                                                                                     <label class="container-c">
                                                                                         <input type="checkbox">
-                                                                                        <span class="checkmark"></span>
+                                                                                        <span class="checkmark bdr-0"></span>
                                                                                     </label>
                                                                                 </div>
                                                                             </div>
@@ -762,7 +774,7 @@
                                                                     </a>
                                                                 </li>
                                                                 <li class="game-item">
-                                                                    <a href="" class="game-link">
+                                                                    <a href="javascript:;" class="game-link">
                                                                         <div class="game-info">
                                                                             <img src="./img/dashboard/info/g-3.png" alt="" class="game-img">
             
@@ -774,7 +786,7 @@
                                                                                 <div class="form-info__url">
                                                                                     <label class="container-c">
                                                                                         <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
+                                                                                        <span class="checkmark bdr-0"></span>
                                                                                     </label>
                                                                                 </div>
                                                                             </div>
@@ -782,7 +794,7 @@
                                                                     </a>
                                                                 </li>
                                                                 <li class="game-item">
-                                                                    <a href="" class="game-link">
+                                                                    <a href="javascript:;" class="game-link">
                                                                         <div class="game-info">
                                                                             <img src="./img/dashboard/info/g-4.png" alt="" class="game-img">
             
@@ -794,7 +806,7 @@
                                                                                 <div class="form-info__url">
                                                                                     <label class="container-c">
                                                                                         <input type="checkbox">
-                                                                                        <span class="checkmark"></span>
+                                                                                        <span class="checkmark bdr-0"></span>
                                                                                     </label>
                                                                                 </div>
                                                                             </div>
@@ -802,7 +814,7 @@
                                                                     </a>
                                                                 </li>
                                                                 <li class="game-item">
-                                                                    <a href="" class="game-link">
+                                                                    <a href="javascript:;" class="game-link">
                                                                         <div class="game-info">
                                                                             <img src="./img/dashboard/info/g-5.png" alt="" class="game-img">
             
@@ -814,7 +826,7 @@
                                                                                 <div class="form-info__url">
                                                                                     <label class="container-c">
                                                                                         <input type="checkbox">
-                                                                                        <span class="checkmark"></span>
+                                                                                        <span class="checkmark bdr-0"></span>
                                                                                     </label>
                                                                                 </div>
                                                                             </div>
@@ -822,7 +834,7 @@
                                                                     </a>
                                                                 </li>
                                                                 <li class="game-item">
-                                                                    <a href="" class="game-link">
+                                                                    <a href="javascript:;" class="game-link">
                                                                         <div class="game-info">
                                                                             <img src="./img/dashboard/info/g-6.png" alt="" class="game-img">
             
@@ -834,7 +846,7 @@
                                                                                 <div class="form-info__url">
                                                                                     <label class="container-c">
                                                                                         <input type="checkbox" checked="checked">
-                                                                                        <span class="checkmark"></span>
+                                                                                        <span class="checkmark bdr-0"></span>
                                                                                     </label>
                                                                                 </div>
                                                                             </div>
@@ -899,6 +911,9 @@
                                                                         <img src="./img/dashboard/info/pic-4.png" alt="" class="about-image__img">
                                                                     </li>
                                                                     <li class="about-image__item">
+                                                                        <span class="about-image__item-text">
+                                                                            +4
+                                                                        </span>
                                                                         <img src="./img/dashboard/info/pic-5.png" alt="" class="about-image__img">
                                                                     </li>
                                                                 </ul>
@@ -928,10 +943,16 @@
             
                                                                     <li class="about-image__item">
                                                                         <img src="./img/dashboard/info/pic-6.png" alt="" class="about-image__img">
+                                                                        <span class="about-image__img-play">
+                                                                            <img src="./img/dashboard/info/play.svg" class="about-image__img-play-icon" alt="">
+                                                                        </span>
                                                                     </li>
             
                                                                     <li class="about-image__item">
                                                                         <img src="./img/dashboard/info/pic-7.png" alt="" class="about-image__img">
+                                                                        <span class="about-image__img-play">
+                                                                            <img src="./img/dashboard/info/play.svg" class="about-image__img-play-icon" alt="">
+                                                                        </span>
                                                                     </li>
 
                                                                     <li class="about-image__item">
@@ -985,16 +1006,21 @@
                                                         </span>
             
                                                         <div class="rent-max__control">
-                                                            <button class="rent-max__btn">
+                                                            <button class="rent-max__btn" id="decrease" onclick="decreaseValue()">
                                                                 <img src="./img/dashboard/setting/minus.svg" alt="" class="rent-max__img">
                                                             </button>
-                                                            <button class="rent-max__btn">
+                                                            <button class="rent-max__btn" id="increase" onclick="increaseValue()">
                                                                 <img src="./img/dashboard/setting/add.svg" alt="" class="rent-max__img">
                                                             </button>
                                                         </div>
                                                     </div>
             
-                                                    <input type="text" placeholder="8 Giờ" class="form-info__input">
+                                                    <div class="rent-max__input">
+                                                        <input type="number" id="number" class="form-info__input number" value="1" min="1" max="100" step="2">
+                                                        <span class="rent-max__text">
+                                                            Giờ
+                                                        </span>
+                                                    </div>
                                                 </div>
             
                                                 <div class="rent-onl">
@@ -1259,14 +1285,14 @@
                                                                     </span>
             
                                                                     <div class="receiver-block">
-                                                                        <input type="radio" id="rd-email" name="radio-group">
+                                                                        <input type="radio" id="rd-email" name="radio-child">
                                                                         <label for="rd-email">Email</label>
             
                                                                         <input type="text" placeholder="nguyenthien12@gmail.com" class="receiver-input">
                                                                     </div>
             
                                                                     <div class="receiver-block">
-                                                                        <input type="radio" id="rd-phone" name="radio-group">
+                                                                        <input type="radio" id="rd-phone" name="radio-child">
                                                                         <label for="rd-phone">Số điện thoại</label>
             
                                                                         <input type="text" class="receiver-input">
@@ -2088,15 +2114,16 @@
                                                         </label>
     
                                                         <div class="form-sex">
-                                                            <label for="form-sex__select" class="form-sex__label">
+                                                            <label for="male" class="form-sex__label">
                                                                 Nam
+                                                                <input type="radio" name="sex" id="male">
                                                             </label> 
                                                             
-                                                            <label for="form-sex__select" class="form-sex__label">
+                                                            <label for="female" class="form-sex__label">
                                                                 Nữ
+                                                                <input type="radio" name="sex" id="female">
                                                             </label>
 
-                                                            <input type="checkbox" hidden name="sex" id="form-sex__select">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -2404,21 +2431,59 @@
     </div> 
     
     <script>
+        function increaseValue() {
+            var value = parseInt(document.getElementById('number').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            document.getElementById('number').value = value;
+        }
+
+        function decreaseValue() {
+            var value = parseInt(document.getElementById('number').value, 10);
+            value = isNaN(value) ? 0 : value;
+            value < 1 ? value = 1 : '';
+            value--;
+            document.getElementById('number').value = value;
+        }
+
         $(document).ready(function(){ 
             $('#test1').click(function () {
                 $('.footer').show();
+            });
+
+            $('.form-sex__label').click(function() {
+                $('.form-sex__label').removeClass('check-sex');
+
+                if ($('#male').prop('checked', true)) {
+                    $(this).toggleClass('check-sex');
+                }   
+                else if ($('#female').prop('checked', true)) {
+                    $(this).toggleClass('check-sex');
+                }
             });
 
             $('#test2').click(function () {
                 $('.footer').show();
             })
 
-            $('button.cards-price__btn').click(function() {
-                $(this).toggleClass('active-btn');
+            $('.cards-price__item').click(function() {
+                $('.cards-price__item').removeClass('active');
+
+                $(this).toggleClass('active');
+            });
+
+            $('li.time-item').click(function() {
+                $('li.time-item').removeClass('active');
+
+                $(this).toggleClass('active');
             });
 
             $('button.time-btn').click(function() {
                 $(this).toggleClass('active-btn')
+            })
+
+            $('.rent-select__img').click(function() {
+                $(this, '.rent-select__item').hide();
             })
 
             $('tbody.table__tbody > tr').click(function(){
