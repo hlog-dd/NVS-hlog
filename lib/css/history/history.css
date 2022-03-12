@@ -317,6 +317,7 @@ span.table__tbody-text {
     color: rgba(101, 1, 7, 0.38);
     display: none;
     margin-top: 4px;
+    transition: all .3s;
 }
 
 .table__tbody-child span {
@@ -340,9 +341,11 @@ a.pagination-link:hover {
 
 .exe2up {
     display: block;
+    transition: all .5s;
 }
 
 .messup {
+    transition: all .5s;
     white-space: normal !important;
 }
 
